@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import {jsx} from '@emotion/core';
 import React from 'react';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 
 import OrganizationAvatar from 'app/components/avatar/organizationAvatar';
 import SentryTypes from 'app/sentryTypes';
