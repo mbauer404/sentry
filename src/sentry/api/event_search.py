@@ -1,6 +1,7 @@
 from __future__ import absolute_import
 
 import re
+import uuid
 from collections import namedtuple
 from copy import deepcopy
 from datetime import datetime
@@ -584,6 +585,32 @@ def convert_search_filter_to_snuba_query(search_filter):
                 )
             )
         return [name, search_filter.operator, internal_value]
+    elif name == "trace":
+        if not search_filter.value.raw_value:
+            operator = "IS NULL" if search_filter.operator == "=" else "IS NOT NULL"
+            return [name, operator, None]
+
+        try:
+            return [
+                name,
+                search_filter.operator,
+                six.binary_type(uuid.UUID(search_filter.value.raw_value)),
+            ]
+        except Exception:
+            raise InvalidSearchQuery(
+                "Invalid value for the trace condition. Value must be a hexadecimal UUID string."
+            )
+    elif name == "trace.span":
+        if not search_filter.value.raw_value:
+            operator = "IS NULL" if search_filter.operator == "=" else "IS NOT NULL"
+            return [name, operator, None]
+
+        try:
+            return [name, search_filter.operator, int(search_filter.value.raw_value, 16)]
+        except Exception:
+            raise InvalidSearchQuery(
+                "Invalid value for the trace.span condition. Value must be a hex-encoded integer."
+            )
     else:
         value = (
             int(to_timestamp(value)) * 1000
