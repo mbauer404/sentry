@@ -64,10 +64,10 @@ describe('SettingsSearch', function() {
     expect(wrapper.find('input').prop('placeholder')).toBe(SETTINGS_SEARCH_PLACEHOLDER);
   });
 
-  it('can focus when `handleFocusSearch` is called and target is not search input', async function() {
+  it('can focus when `handleFocusSearch` is called and target is not search input', function() {
     const wrapper = mount(<SettingsSearch params={{orgId: 'org-slug'}} />, routerContext);
-    await tick();
-    const focusSpy = jest.spyOn(wrapper.find('SearchInput input').instance(), 'focus');
+    const searchInput = wrapper.find('SearchInput input').instance();
+    const focusSpy = jest.spyOn(searchInput, 'focus');
 
     wrapper.instance().handleFocusSearch({
       preventDefault: () => {},
@@ -79,7 +79,7 @@ describe('SettingsSearch', function() {
 
   it('does not focus search input if it is current target and `handleFocusSearch` is called', function() {
     const wrapper = mount(<SettingsSearch params={{orgId: 'org-slug'}} />, routerContext);
-    const searchInput = wrapper.instance().searchInput;
+    const searchInput = wrapper.find('SearchInput input').instance();
     const focusSpy = jest.spyOn(searchInput, 'focus');
 
     wrapper.instance().handleFocusSearch({
