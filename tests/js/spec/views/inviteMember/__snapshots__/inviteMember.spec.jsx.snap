@@ -82,26 +82,26 @@ exports[`InviteMember should render roles when available and allowed, and handle
       title="Add Member to Organization"
     >
       <SettingsPageHeading
-        className="css-1fvvoq2-StyledSettingsPageHeading e1uay4fd4"
+        className="css-xtfhnp-StyledSettingsPageHeading e1uay4fd4"
         noTitleStyles={false}
         title="Add Member to Organization"
       >
         <div
-          className="css-1fvvoq2-StyledSettingsPageHeading e1uay4fd4"
+          className="css-xtfhnp-StyledSettingsPageHeading e1uay4fd4"
         >
           <TitleAndActions>
             <div
-              className="css-b5tiyd-TitleAndActions e1uay4fd0"
+              className="css-ifzfc5-TitleAndActions e1uay4fd0"
             >
               <Title
                 styled={false}
               >
                 <div
-                  className="css-2kvddg-Title e1uay4fd1"
+                  className="css-120v9s3-Title e1uay4fd1"
                 >
                   <HeaderTitle>
                     <h4
-                      className="css-1w8ttcn-HeaderTitle eqkydle2"
+                      className="css-1bosio6-HeaderTitle eqkydle2"
                     >
                       Add Member to Organization
                     </h4>
@@ -115,7 +115,7 @@ exports[`InviteMember should render roles when available and allowed, and handle
     </StyledSettingsPageHeading>
     <TextBlock>
       <div
-        className="css-1geyb25-TextBlock e1x1lar10"
+        className="css-1j3tvli-TextBlock e1x1lar10"
       >
         Invite a member to join this organization via their email address. If they do not already have an account, they will first be asked to create one. Multiple emails delimited by commas.
       </div>
@@ -185,14 +185,14 @@ exports[`InviteMember should render roles when available and allowed, and handle
       >
         <Panel>
           <Component
-            className="css-10qfvek-Panel e119nu470"
+            className="css-15hwgrz-Panel e119nu470"
           >
             <div
-              className="css-10qfvek-Panel e119nu470"
+              className="css-15hwgrz-Panel e119nu470"
             >
               <PanelHeader>
                 <div
-                  className="css-cjwccy-PanelHeader-getPadding en8g1d30"
+                  className="css-xaplc5-PanelHeader en8g1d30"
                 >
                   Role
                 </div>
@@ -202,136 +202,206 @@ exports[`InviteMember should render roles when available and allowed, and handle
                 disablePadding={true}
                 flex={false}
               >
-                <div
-                  className="css-a4ya23-textStyles"
+                <EmotionCssPropInternal
+                  __EMOTION_LABEL_PLEASE_DO_NOT_USE__="PanelBody"
+                  __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                  css={
+                    Object {
+                      "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRleHQudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUdZIiwiZmlsZSI6InRleHQudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtjc3N9IGZyb20gJ0BlbW90aW9uL2NvcmUnO1xuXG5jb25zdCB0ZXh0U3R5bGVzID0gKCkgPT4ge1xuICByZXR1cm4gY3NzYFxuICAgIC8qIHN0eWxlbGludC1kaXNhYmxlIG5vLWRlc2NlbmRpbmctc3BlY2lmaWNpdHkgKi9cbiAgICBoMSxcbiAgICBoMixcbiAgICBoMyxcbiAgICBoNCxcbiAgICBoNSxcbiAgICBoNixcbiAgICBwLFxuICAgIHVsLFxuICAgIG9sLFxuICAgIHRhYmxlLFxuICAgIGRsLFxuICAgIGJsb2NrcXVvdGUsXG4gICAgZm9ybSxcbiAgICBwcmUsXG4gICAgLmF1dG8tc2VsZWN0LXRleHQsXG4gICAgLnNlY3Rpb24sXG4gICAgW2NsYXNzXj0naGlnaGxpZ2h0LSddIHtcbiAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XG5cbiAgICAgICY6bGFzdC1jaGlsZCB7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDA7XG4gICAgICB9XG4gICAgfVxuXG4gICAgaDEsXG4gICAgaDIsXG4gICAgaDMsXG4gICAgaDQsXG4gICAgaDUsXG4gICAgaDYge1xuICAgICAgbGluZS1oZWlnaHQ6IDEuMjtcbiAgICB9XG5cbiAgICBwLFxuICAgIHVsLFxuICAgIG9sLFxuICAgIGJsb2NrcXVvdGUge1xuICAgICAgbGluZS1oZWlnaHQ6IDEuNTtcbiAgICB9XG5cbiAgICBoMSB7XG4gICAgICBmb250LXNpemU6IDJlbTtcbiAgICB9XG5cbiAgICBoMiB7XG4gICAgICBmb250LXNpemU6IDEuNzVlbTtcbiAgICB9XG5cbiAgICBoMyB7XG4gICAgICBmb250LXNpemU6IDEuNWVtO1xuICAgIH1cblxuICAgIGg0IHtcbiAgICAgIGZvbnQtc2l6ZTogMS4yNWVtO1xuICAgIH1cblxuICAgIGg1IHtcbiAgICAgIGZvbnQtc2l6ZTogMWVtO1xuICAgIH1cblxuICAgIHByZSB7XG4gICAgICB3b3JkLWJyZWFrOiBicmVhay1hbGw7XG4gICAgICB3aGl0ZS1zcGFjZTogcHJlLXdyYXA7XG4gICAgfVxuICAgIC8qIHN0eWxlbGludC1lbmFibGUgKi9cbiAgYDtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IHRleHRTdHlsZXM7XG4iXX0= */",
+                      "name": "7uw193-PanelBody",
+                      "next": undefined,
+                      "styles": "h1,h2,h3,h4,h5,h6,p,ul,ol,table,dl,blockquote,form,pre,.auto-select-text,.section,[class^='highlight-']{margin-bottom:20px;&:last-child{margin-bottom:0;}}h1,h2,h3,h4,h5,h6{line-height:1.2;}p,ul,ol,blockquote{line-height:1.5;}h1{font-size:2em;}h2{font-size:1.75em;}h3{font-size:1.5em;}h4{font-size:1.25em;}h5{font-size:1em;}pre{word-break:break-all;white-space:pre-wrap;};;label:PanelBody;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhbmVsQm9keS5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUJNIiwiZmlsZSI6InBhbmVsQm9keS5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge2Nzc30gZnJvbSAnQGVtb3Rpb24vY29yZSc7XG5pbXBvcnQge0ZsZXh9IGZyb20gJ0ByZWJhc3MvZ3JpZC9lbW90aW9uJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5pbXBvcnQgc3BhY2UgZnJvbSAnYXBwL3N0eWxlcy9zcGFjZSc7XG5pbXBvcnQgdGV4dFN0eWxlcyBmcm9tICdhcHAvc3R5bGVzL3RleHQnO1xuXG5jb25zdCBQYW5lbEJvZHkgPSAoe2Rpc2FibGVQYWRkaW5nLCBmbGV4LCBkaXJlY3Rpb24sIC4uLnByb3BzfSkgPT4ge1xuICBjb25zdCBwYWRkaW5nID0gIWRpc2FibGVQYWRkaW5nXG4gICAgPyBjc3NgXG4gICAgICAgIHBhZGRpbmc6ICR7c3BhY2UoMil9O1xuICAgICAgYFxuICAgIDogJyc7XG4gIGNvbnN0IGZsZXhEaXJlY3Rpb24gPSBmbGV4ID8gZGlyZWN0aW9uIDogdW5kZWZpbmVkO1xuICBjb25zdCBDb21wID0gZmxleCA/IEZsZXggOiAnZGl2JztcblxuICByZXR1cm4gKFxuICAgIDxDb21wXG4gICAgICBjc3M9e1t0ZXh0U3R5bGVzKHByb3BzKSwgcGFkZGluZ119XG4gICAgICB7Li4ucHJvcHN9XG4gICAgICB7Li4uKGZsZXhEaXJlY3Rpb24gPyB7ZmxleERpcmVjdGlvbn0gOiBudWxsKX1cbiAgICAvPlxuICApO1xufTtcblxuUGFuZWxCb2R5LnByb3BUeXBlcyA9IHtcbiAgZmxleDogUHJvcFR5cGVzLmJvb2wsXG4gIGRpcmVjdGlvbjogUHJvcFR5cGVzLnN0cmluZyxcbiAgZGlzYWJsZVBhZGRpbmc6IFByb3BUeXBlcy5ib29sLFxufTtcblxuUGFuZWxCb2R5LmRlZmF1bHRQcm9wcyA9IHtcbiAgZmxleDogZmFsc2UsXG4gIGRpcmVjdGlvbjogJ2NvbHVtbicsXG4gIGRpc2FibGVQYWRkaW5nOiB0cnVlLFxufTtcblxuZXhwb3J0IGRlZmF1bHQgUGFuZWxCb2R5O1xuIl19 */",
+                      "toString": [Function],
+                    }
+                  }
                 >
-                  <PanelItem
-                    className="css-0"
-                    key="1"
-                    onClick={[Function]}
-                    p={2}
+                  <div
+                    className="css-7uw193-PanelBody"
                   >
-                    <Base
-                      className="css-125s2dx-PanelItem eo8n7lk0"
+                    <EmotionCssPropInternal
+                      __EMOTION_TYPE_PLEASE_DO_NOT_USE__={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "__emotion_base": "div",
+                          "__emotion_forwardProp": undefined,
+                          "__emotion_real": [Circular],
+                          "__emotion_styles": Array [
+                            Object {
+                              "boxSizing": "border-box",
+                            },
+                            [Function],
+                            Object {
+                              "display": "flex",
+                            },
+                            "label:PanelItem;",
+                            "border-bottom:1px solid ",
+                            [Function],
+                            ";&:last-child{border:0;}/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhbmVsSXRlbS5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBSThCIiwiZmlsZSI6InBhbmVsSXRlbS5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0ZsZXh9IGZyb20gJ0ByZWJhc3MvZ3JpZC9lbW90aW9uJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5cbmNvbnN0IFBhbmVsSXRlbSA9IHN0eWxlZChGbGV4KWBcbiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICR7cCA9PiBwLnRoZW1lLmJvcmRlckxpZ2h0fTtcblxuICAmOmxhc3QtY2hpbGQge1xuICAgIGJvcmRlcjogMDtcbiAgfVxuYDtcblxuUGFuZWxJdGVtLnByb3BUeXBlcyA9IHtcbiAgcDogUHJvcFR5cGVzLm51bWJlcixcbn07XG5QYW5lbEl0ZW0uZGVmYXVsdFByb3BzID0ge1xuICBwOiAyLFxufTtcblxuZXhwb3J0IGRlZmF1bHQgUGFuZWxJdGVtO1xuIl19 */",
+                          ],
+                          "defaultProps": Object {
+                            "p": 2,
+                          },
+                          "displayName": "PanelItem",
+                          "propTypes": Object {
+                            "p": [Function],
+                          },
+                          "render": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      css={Object {}}
+                      key="1"
                       onClick={[Function]}
-                      p={2}
                     >
-                      <div
-                        className="css-125s2dx-PanelItem eo8n7lk0"
-                        is={null}
+                      <PanelItem
+                        className="css-0"
                         onClick={[Function]}
+                        p={2}
                       >
-                        <Label>
-                          <label
-                            className="css-1oswpsn-Label e1noblkb0"
-                          >
-                            <Radio
-                              checked={false}
-                              id="1"
-                              readOnly={true}
-                              value="member"
+                        <div
+                          className="css-1b2dldo-PanelItem eo8n7lk0"
+                          onClick={[Function]}
+                        >
+                          <Label>
+                            <label
+                              className="css-1k85637-Label e1noblkb0"
                             >
-                              <input
+                              <Radio
                                 checked={false}
-                                className="radio-select"
                                 id="1"
                                 readOnly={true}
-                                type="radio"
                                 value="member"
-                              />
-                            </Radio>
-                            <div
-                              style={
-                                Object {
-                                  "flex": 1,
-                                  "padding": "0 16px",
-                                }
-                              }
-                            >
-                              member
-                              <TextBlock
-                                noMargin={true}
                               >
-                                <div
-                                  className="css-h0npum-TextBlock e1x1lar10"
+                                <input
+                                  checked={false}
+                                  className="radio-select"
+                                  id="1"
+                                  readOnly={true}
+                                  type="radio"
+                                  value="member"
+                                />
+                              </Radio>
+                              <div
+                                style={
+                                  Object {
+                                    "flex": 1,
+                                    "padding": "0 16px",
+                                  }
+                                }
+                              >
+                                member
+                                <TextBlock
+                                  noMargin={true}
                                 >
                                   <div
-                                    className="help-block"
+                                    className="css-1liehie-TextBlock e1x1lar10"
                                   >
-                                    a normal member
+                                    <div
+                                      className="help-block"
+                                    >
+                                      a normal member
+                                    </div>
                                   </div>
-                                </div>
-                              </TextBlock>
-                            </div>
-                          </label>
-                        </Label>
-                      </div>
-                    </Base>
-                  </PanelItem>
-                  <PanelItem
-                    className="css-0"
-                    key="2"
-                    onClick={[Function]}
-                    p={2}
-                  >
-                    <Base
-                      className="css-125s2dx-PanelItem eo8n7lk0"
+                                </TextBlock>
+                              </div>
+                            </label>
+                          </Label>
+                        </div>
+                      </PanelItem>
+                    </EmotionCssPropInternal>
+                    <EmotionCssPropInternal
+                      __EMOTION_TYPE_PLEASE_DO_NOT_USE__={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "__emotion_base": "div",
+                          "__emotion_forwardProp": undefined,
+                          "__emotion_real": [Circular],
+                          "__emotion_styles": Array [
+                            Object {
+                              "boxSizing": "border-box",
+                            },
+                            [Function],
+                            Object {
+                              "display": "flex",
+                            },
+                            "label:PanelItem;",
+                            "border-bottom:1px solid ",
+                            [Function],
+                            ";&:last-child{border:0;}/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhbmVsSXRlbS5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBSThCIiwiZmlsZSI6InBhbmVsSXRlbS5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0ZsZXh9IGZyb20gJ0ByZWJhc3MvZ3JpZC9lbW90aW9uJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5cbmNvbnN0IFBhbmVsSXRlbSA9IHN0eWxlZChGbGV4KWBcbiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICR7cCA9PiBwLnRoZW1lLmJvcmRlckxpZ2h0fTtcblxuICAmOmxhc3QtY2hpbGQge1xuICAgIGJvcmRlcjogMDtcbiAgfVxuYDtcblxuUGFuZWxJdGVtLnByb3BUeXBlcyA9IHtcbiAgcDogUHJvcFR5cGVzLm51bWJlcixcbn07XG5QYW5lbEl0ZW0uZGVmYXVsdFByb3BzID0ge1xuICBwOiAyLFxufTtcblxuZXhwb3J0IGRlZmF1bHQgUGFuZWxJdGVtO1xuIl19 */",
+                          ],
+                          "defaultProps": Object {
+                            "p": 2,
+                          },
+                          "displayName": "PanelItem",
+                          "propTypes": Object {
+                            "p": [Function],
+                          },
+                          "render": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      css={Object {}}
+                      key="2"
                       onClick={[Function]}
-                      p={2}
                     >
-                      <div
-                        className="css-125s2dx-PanelItem eo8n7lk0"
-                        is={null}
+                      <PanelItem
+                        className="css-0"
                         onClick={[Function]}
+                        p={2}
                       >
-                        <Label>
-                          <label
-                            className="css-1oswpsn-Label e1noblkb0"
-                          >
-                            <Radio
-                              checked={false}
-                              id="2"
-                              readOnly={true}
-                              value="bar"
+                        <div
+                          className="css-1b2dldo-PanelItem eo8n7lk0"
+                          onClick={[Function]}
+                        >
+                          <Label>
+                            <label
+                              className="css-1k85637-Label e1noblkb0"
                             >
-                              <input
+                              <Radio
                                 checked={false}
-                                className="radio-select"
                                 id="2"
                                 readOnly={true}
-                                type="radio"
                                 value="bar"
-                              />
-                            </Radio>
-                            <div
-                              style={
-                                Object {
-                                  "flex": 1,
-                                  "padding": "0 16px",
-                                }
-                              }
-                            >
-                              bar
-                              <TextBlock
-                                noMargin={true}
                               >
-                                <div
-                                  className="css-h0npum-TextBlock e1x1lar10"
+                                <input
+                                  checked={false}
+                                  className="radio-select"
+                                  id="2"
+                                  readOnly={true}
+                                  type="radio"
+                                  value="bar"
+                                />
+                              </Radio>
+                              <div
+                                style={
+                                  Object {
+                                    "flex": 1,
+                                    "padding": "0 16px",
+                                  }
+                                }
+                              >
+                                bar
+                                <TextBlock
+                                  noMargin={true}
                                 >
                                   <div
-                                    className="help-block"
+                                    className="css-1liehie-TextBlock e1x1lar10"
                                   >
-                                    another role
+                                    <div
+                                      className="help-block"
+                                    >
+                                      another role
+                                    </div>
                                   </div>
-                                </div>
-                              </TextBlock>
-                            </div>
-                          </label>
-                        </Label>
-                      </div>
-                    </Base>
-                  </PanelItem>
-                </div>
+                                </TextBlock>
+                              </div>
+                            </label>
+                          </Label>
+                        </div>
+                      </PanelItem>
+                    </EmotionCssPropInternal>
+                  </div>
+                </EmotionCssPropInternal>
               </PanelBody>
             </div>
           </Component>
@@ -440,16 +510,16 @@ exports[`InviteMember should render roles when available and allowed, and handle
         >
           <Panel>
             <Component
-              className="css-10qfvek-Panel e119nu470"
+              className="css-15hwgrz-Panel e119nu470"
             >
               <div
-                className="css-10qfvek-Panel e119nu470"
+                className="css-15hwgrz-Panel e119nu470"
               >
                 <PanelHeader
                   hasButtons={true}
                 >
                   <div
-                    className="css-113w9ek-PanelHeader-getPadding en8g1d30"
+                    className="css-18hapaz-PanelHeader en8g1d30"
                   >
                     Team
                     <DropdownAutoComplete
@@ -489,14 +559,14 @@ exports[`InviteMember should render roles when available and allowed, and handle
                           >
                             <AutoCompleteRoot>
                               <Component
-                                className="css-6v04yn-AutoCompleteRoot ejumqxq0"
+                                className="css-j1qymt-AutoCompleteRoot ejumqxq0"
                               >
                                 <div
-                                  className="css-6v04yn-AutoCompleteRoot ejumqxq0"
+                                  className="css-j1qymt-AutoCompleteRoot ejumqxq0"
                                 >
                                   <Actor
-                                    innerRef={[Function]}
                                     isOpen={false}
+                                    isStyled={true}
                                     onClick={[Function]}
                                     onKeyDown={[Function]}
                                     onMouseEnter={[Function]}
@@ -510,7 +580,7 @@ exports[`InviteMember should render roles when available and allowed, and handle
                                     tabIndex="0"
                                   >
                                     <div
-                                      className="css-12n6mek-Actor e53us8t0"
+                                      className="css-1vv9ctx-Actor e53us8t0"
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                       onMouseEnter={[Function]}
@@ -539,7 +609,7 @@ exports[`InviteMember should render roles when available and allowed, and handle
                                         >
                                           <ForwardRef
                                             aria-label="Add Team"
-                                            className="css-13vimgs-StyledButton e1yghndz1"
+                                            className="css-k164fp-StyledButton e1yghndz1"
                                             disabled={true}
                                             isOpen={false}
                                             size="xsmall"
@@ -548,18 +618,16 @@ exports[`InviteMember should render roles when available and allowed, and handle
                                             <Button
                                               align="center"
                                               aria-label="Add Team"
-                                              className="css-13vimgs-StyledButton e1yghndz1"
+                                              className="css-k164fp-StyledButton e1yghndz1"
                                               disabled={true}
-                                              innerRef={null}
                                               size="xsmall"
                                               type="button"
                                             >
                                               <StyledButton
                                                 aria-disabled={true}
                                                 aria-label="Add Team"
-                                                className="css-13vimgs-StyledButton e1yghndz1"
+                                                className="css-k164fp-StyledButton e1yghndz1"
                                                 disabled={true}
-                                                innerRef={null}
                                                 onClick={[Function]}
                                                 role="button"
                                                 size="xsmall"
@@ -568,7 +636,7 @@ exports[`InviteMember should render roles when available and allowed, and handle
                                                 <ForwardRef
                                                   aria-disabled={true}
                                                   aria-label="Add Team"
-                                                  className="e1yghndz1 css-1ejluh3-StyledButton-getColors-StyledButton edwq9my0"
+                                                  className="e1yghndz1 css-oyskkc-StyledButton-StyledButton edwq9my0"
                                                   disabled={true}
                                                   onClick={[Function]}
                                                   role="button"
@@ -578,7 +646,7 @@ exports[`InviteMember should render roles when available and allowed, and handle
                                                   <button
                                                     aria-disabled={true}
                                                     aria-label="Add Team"
-                                                    className="e1yghndz1 css-1ejluh3-StyledButton-getColors-StyledButton edwq9my0"
+                                                    className="e1yghndz1 css-oyskkc-StyledButton-StyledButton edwq9my0"
                                                     onClick={[Function]}
                                                     role="button"
                                                     size="xsmall"
@@ -590,27 +658,27 @@ exports[`InviteMember should render roles when available and allowed, and handle
                                                     >
                                                       <Component
                                                         align="center"
-                                                        className="css-1bqncjo-ButtonLabel edwq9my1"
+                                                        className="css-cmi7y3-ButtonLabel edwq9my1"
                                                         size="xsmall"
                                                       >
                                                         <span
-                                                          className="css-1bqncjo-ButtonLabel edwq9my1"
+                                                          className="css-cmi7y3-ButtonLabel edwq9my1"
                                                         >
                                                           Add Team
                                                           <StyledChevronDown>
                                                             <Component
-                                                              className="css-17v3tc-StyledChevronDown e1yghndz0"
+                                                              className="css-1jdzfs8-StyledChevronDown e1yghndz0"
                                                             >
                                                               <InlineSvg
-                                                                className="css-17v3tc-StyledChevronDown e1yghndz0"
+                                                                className="css-1jdzfs8-StyledChevronDown e1yghndz0"
                                                                 src="icon-chevron-down"
                                                               >
                                                                 <ForwardRef
-                                                                  className="e1yghndz0 css-ft01vp-InlineSvg-StyledChevronDown enyz4ql0"
+                                                                  className="e1yghndz0 css-eqsg9h-InlineSvg-StyledChevronDown enyz4ql0"
                                                                   src="icon-chevron-down"
                                                                 >
                                                                   <svg
-                                                                    className="e1yghndz0 css-ft01vp-InlineSvg-StyledChevronDown enyz4ql0"
+                                                                    className="e1yghndz0 css-eqsg9h-InlineSvg-StyledChevronDown enyz4ql0"
                                                                     height="1em"
                                                                     viewBox={Object {}}
                                                                     width="1em"
@@ -650,30 +718,44 @@ exports[`InviteMember should render roles when available and allowed, and handle
                   disablePadding={true}
                   flex={false}
                 >
-                  <div
-                    className="css-a4ya23-textStyles"
+                  <EmotionCssPropInternal
+                    __EMOTION_LABEL_PLEASE_DO_NOT_USE__="PanelBody"
+                    __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                    css={
+                      Object {
+                        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRleHQudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUdZIiwiZmlsZSI6InRleHQudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtjc3N9IGZyb20gJ0BlbW90aW9uL2NvcmUnO1xuXG5jb25zdCB0ZXh0U3R5bGVzID0gKCkgPT4ge1xuICByZXR1cm4gY3NzYFxuICAgIC8qIHN0eWxlbGludC1kaXNhYmxlIG5vLWRlc2NlbmRpbmctc3BlY2lmaWNpdHkgKi9cbiAgICBoMSxcbiAgICBoMixcbiAgICBoMyxcbiAgICBoNCxcbiAgICBoNSxcbiAgICBoNixcbiAgICBwLFxuICAgIHVsLFxuICAgIG9sLFxuICAgIHRhYmxlLFxuICAgIGRsLFxuICAgIGJsb2NrcXVvdGUsXG4gICAgZm9ybSxcbiAgICBwcmUsXG4gICAgLmF1dG8tc2VsZWN0LXRleHQsXG4gICAgLnNlY3Rpb24sXG4gICAgW2NsYXNzXj0naGlnaGxpZ2h0LSddIHtcbiAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XG5cbiAgICAgICY6bGFzdC1jaGlsZCB7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDA7XG4gICAgICB9XG4gICAgfVxuXG4gICAgaDEsXG4gICAgaDIsXG4gICAgaDMsXG4gICAgaDQsXG4gICAgaDUsXG4gICAgaDYge1xuICAgICAgbGluZS1oZWlnaHQ6IDEuMjtcbiAgICB9XG5cbiAgICBwLFxuICAgIHVsLFxuICAgIG9sLFxuICAgIGJsb2NrcXVvdGUge1xuICAgICAgbGluZS1oZWlnaHQ6IDEuNTtcbiAgICB9XG5cbiAgICBoMSB7XG4gICAgICBmb250LXNpemU6IDJlbTtcbiAgICB9XG5cbiAgICBoMiB7XG4gICAgICBmb250LXNpemU6IDEuNzVlbTtcbiAgICB9XG5cbiAgICBoMyB7XG4gICAgICBmb250LXNpemU6IDEuNWVtO1xuICAgIH1cblxuICAgIGg0IHtcbiAgICAgIGZvbnQtc2l6ZTogMS4yNWVtO1xuICAgIH1cblxuICAgIGg1IHtcbiAgICAgIGZvbnQtc2l6ZTogMWVtO1xuICAgIH1cblxuICAgIHByZSB7XG4gICAgICB3b3JkLWJyZWFrOiBicmVhay1hbGw7XG4gICAgICB3aGl0ZS1zcGFjZTogcHJlLXdyYXA7XG4gICAgfVxuICAgIC8qIHN0eWxlbGludC1lbmFibGUgKi9cbiAgYDtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IHRleHRTdHlsZXM7XG4iXX0= */",
+                        "name": "7uw193-PanelBody",
+                        "next": undefined,
+                        "styles": "h1,h2,h3,h4,h5,h6,p,ul,ol,table,dl,blockquote,form,pre,.auto-select-text,.section,[class^='highlight-']{margin-bottom:20px;&:last-child{margin-bottom:0;}}h1,h2,h3,h4,h5,h6{line-height:1.2;}p,ul,ol,blockquote{line-height:1.5;}h1{font-size:2em;}h2{font-size:1.75em;}h3{font-size:1.5em;}h4{font-size:1.25em;}h5{font-size:1em;}pre{word-break:break-all;white-space:pre-wrap;};;label:PanelBody;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhbmVsQm9keS5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUJNIiwiZmlsZSI6InBhbmVsQm9keS5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge2Nzc30gZnJvbSAnQGVtb3Rpb24vY29yZSc7XG5pbXBvcnQge0ZsZXh9IGZyb20gJ0ByZWJhc3MvZ3JpZC9lbW90aW9uJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5pbXBvcnQgc3BhY2UgZnJvbSAnYXBwL3N0eWxlcy9zcGFjZSc7XG5pbXBvcnQgdGV4dFN0eWxlcyBmcm9tICdhcHAvc3R5bGVzL3RleHQnO1xuXG5jb25zdCBQYW5lbEJvZHkgPSAoe2Rpc2FibGVQYWRkaW5nLCBmbGV4LCBkaXJlY3Rpb24sIC4uLnByb3BzfSkgPT4ge1xuICBjb25zdCBwYWRkaW5nID0gIWRpc2FibGVQYWRkaW5nXG4gICAgPyBjc3NgXG4gICAgICAgIHBhZGRpbmc6ICR7c3BhY2UoMil9O1xuICAgICAgYFxuICAgIDogJyc7XG4gIGNvbnN0IGZsZXhEaXJlY3Rpb24gPSBmbGV4ID8gZGlyZWN0aW9uIDogdW5kZWZpbmVkO1xuICBjb25zdCBDb21wID0gZmxleCA/IEZsZXggOiAnZGl2JztcblxuICByZXR1cm4gKFxuICAgIDxDb21wXG4gICAgICBjc3M9e1t0ZXh0U3R5bGVzKHByb3BzKSwgcGFkZGluZ119XG4gICAgICB7Li4ucHJvcHN9XG4gICAgICB7Li4uKGZsZXhEaXJlY3Rpb24gPyB7ZmxleERpcmVjdGlvbn0gOiBudWxsKX1cbiAgICAvPlxuICApO1xufTtcblxuUGFuZWxCb2R5LnByb3BUeXBlcyA9IHtcbiAgZmxleDogUHJvcFR5cGVzLmJvb2wsXG4gIGRpcmVjdGlvbjogUHJvcFR5cGVzLnN0cmluZyxcbiAgZGlzYWJsZVBhZGRpbmc6IFByb3BUeXBlcy5ib29sLFxufTtcblxuUGFuZWxCb2R5LmRlZmF1bHRQcm9wcyA9IHtcbiAgZmxleDogZmFsc2UsXG4gIGRpcmVjdGlvbjogJ2NvbHVtbicsXG4gIGRpc2FibGVQYWRkaW5nOiB0cnVlLFxufTtcblxuZXhwb3J0IGRlZmF1bHQgUGFuZWxCb2R5O1xuIl19 */",
+                        "toString": [Function],
+                      }
+                    }
                   >
-                    <EmptyMessage>
-                      <Component
-                        className="css-11r4vxm-EmptyMessage e1h3yfdx4"
-                      >
-                        <div
-                          className="css-11r4vxm-EmptyMessage e1h3yfdx4"
-                          data-test-id="empty-message"
+                    <div
+                      className="css-7uw193-PanelBody"
+                    >
+                      <EmptyMessage>
+                        <Component
+                          className="css-1scmenn-EmptyMessage e1h3yfdx4"
                         >
-                          <Description
-                            noMargin={true}
+                          <div
+                            className="css-1scmenn-EmptyMessage e1h3yfdx4"
+                            data-test-id="empty-message"
                           >
-                            <div
-                              className="css-pwn5v-TextBlock-Description-MarginStyles e1h3yfdx0"
+                            <Description
+                              noMargin={true}
                             >
-                              No Teams assigned
-                            </div>
-                          </Description>
-                        </div>
-                      </Component>
-                    </EmptyMessage>
-                  </div>
+                              <div
+                                className="css-1ni55r3-TextBlock-Description-MarginStyles e1h3yfdx0"
+                              >
+                                No Teams assigned
+                              </div>
+                            </Description>
+                          </div>
+                        </Component>
+                      </EmptyMessage>
+                    </div>
+                  </EmotionCssPropInternal>
                 </PanelBody>
               </div>
             </Component>
@@ -702,7 +784,7 @@ exports[`InviteMember should render roles when available and allowed, and handle
             aria-disabled={false}
             aria-label="Add Member"
             busy={false}
-            className="invite-member-submit css-xiynrq-StyledButton-getColors edwq9my0"
+            className="invite-member-submit css-1ls4txh-StyledButton edwq9my0"
             disabled={false}
             onClick={[Function]}
             priority="primary"
@@ -711,7 +793,7 @@ exports[`InviteMember should render roles when available and allowed, and handle
             <button
               aria-disabled={false}
               aria-label="Add Member"
-              className="invite-member-submit css-xiynrq-StyledButton-getColors edwq9my0"
+              className="invite-member-submit css-1ls4txh-StyledButton edwq9my0"
               onClick={[Function]}
               role="button"
             >
@@ -721,11 +803,11 @@ exports[`InviteMember should render roles when available and allowed, and handle
               >
                 <Component
                   align="center"
-                  className="css-oo1m2a-ButtonLabel edwq9my1"
+                  className="css-zmpclt-ButtonLabel edwq9my1"
                   priority="primary"
                 >
                   <span
-                    className="css-oo1m2a-ButtonLabel edwq9my1"
+                    className="css-zmpclt-ButtonLabel edwq9my1"
                   >
                     Add Member
                   </span>
