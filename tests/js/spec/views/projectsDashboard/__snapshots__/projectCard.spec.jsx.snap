@@ -70,8 +70,8 @@ exports[`ProjectCard renders 1`] = `
       ]
     }
   >
-    <Base
-      className="css-3jemnr-ProjectCardWrapper e1o95it02"
+    <div
+      className="css-zpbg1f-ProjectCardWrapper e1o95it02"
       data-test-id="project-slug"
       width={
         Array [
@@ -82,21 +82,48 @@ exports[`ProjectCard renders 1`] = `
         ]
       }
     >
-      <div
-        className="css-3jemnr-ProjectCardWrapper e1o95it02"
-        data-test-id="project-slug"
-        is={null}
-      >
-        <StyledProjectCard>
-          <div
-            className="css-18be1td-StyledProjectCard e1o95it03"
-          >
-            <StyledProjectCardHeader>
-              <div
-                className="css-v59cbs-StyledProjectCardHeader e1o95it01"
+      <StyledProjectCard>
+        <div
+          className="css-mgpviq-StyledProjectCard e1o95it03"
+        >
+          <StyledProjectCardHeader>
+            <div
+              className="css-120s530-StyledProjectCardHeader e1o95it01"
+            >
+              <StyledIdBadge
+                avatarSize={18}
+                displayName={
+                  <span>
+                    project-slug
+                  </span>
+                }
+                project={
+                  Object {
+                    "environments": Array [],
+                    "hasAccess": true,
+                    "id": "2",
+                    "isBookmarked": false,
+                    "isMember": true,
+                    "name": "Project Name",
+                    "platform": "javascript",
+                    "slug": "project-slug",
+                    "stats": Array [
+                      Array [
+                        1525042800,
+                        1,
+                      ],
+                      Array [
+                        1525046400,
+                        2,
+                      ],
+                    ],
+                    "teams": Array [],
+                  }
+                }
               >
-                <StyledIdBadge
+                <IdBadge
                   avatarSize={18}
+                  className="css-k5ntz1-StyledIdBadge e1o95it05"
                   displayName={
                     <span>
                       project-slug
@@ -126,55 +153,57 @@ exports[`ProjectCard renders 1`] = `
                     }
                   }
                 >
-                  <IdBadge
-                    avatarSize={18}
-                    className="css-1gy4gs4-StyledIdBadge e1o95it05"
-                    displayName={
-                      <span>
-                        project-slug
-                      </span>
-                    }
-                    project={
-                      Object {
-                        "environments": Array [],
-                        "hasAccess": true,
-                        "id": "2",
-                        "isBookmarked": false,
-                        "isMember": true,
-                        "name": "Project Name",
-                        "platform": "javascript",
-                        "slug": "project-slug",
-                        "stats": Array [
-                          Array [
-                            1525042800,
-                            1,
-                          ],
-                          Array [
-                            1525046400,
-                            2,
-                          ],
-                        ],
-                        "teams": Array [],
-                      }
-                    }
+                  <InlineErrorBoundary
+                    mini={true}
                   >
-                    <InlineErrorBoundary
+                    <ErrorBoundary
+                      className="css-1wuy21l-InlineErrorBoundary e83vi020"
                       mini={true}
                     >
-                      <ErrorBoundary
-                        className="css-e4um1y-InlineErrorBoundary e83vi020"
-                        mini={true}
+                      <ProjectBadge
+                        avatarSize={18}
+                        className="css-k5ntz1-StyledIdBadge e1o95it05"
+                        displayName={
+                          <span>
+                            project-slug
+                          </span>
+                        }
+                        hideAvatar={false}
+                        hideOverflow={true}
+                        project={
+                          Object {
+                            "environments": Array [],
+                            "hasAccess": true,
+                            "id": "2",
+                            "isBookmarked": false,
+                            "isMember": true,
+                            "name": "Project Name",
+                            "platform": "javascript",
+                            "slug": "project-slug",
+                            "stats": Array [
+                              Array [
+                                1525042800,
+                                1,
+                              ],
+                              Array [
+                                1525046400,
+                                2,
+                              ],
+                            ],
+                            "teams": Array [],
+                          }
+                        }
                       >
-                        <ProjectBadge
+                        <BaseBadge
+                          avatarProps={Object {}}
                           avatarSize={18}
-                          className="css-1gy4gs4-StyledIdBadge e1o95it05"
+                          className="css-k5ntz1-StyledIdBadge e1o95it05"
                           displayName={
                             <span>
                               project-slug
                             </span>
                           }
                           hideAvatar={false}
-                          hideOverflow={true}
                           project={
                             Object {
                               "environments": Array [],
@@ -199,45 +228,57 @@ exports[`ProjectCard renders 1`] = `
                             }
                           }
                         >
-                          <BaseBadge
-                            avatarProps={Object {}}
-                            avatarSize={18}
-                            className="css-1gy4gs4-StyledIdBadge e1o95it05"
-                            displayName={
-                              <span>
-                                project-slug
-                              </span>
-                            }
-                            hideAvatar={false}
-                            project={
-                              Object {
-                                "environments": Array [],
-                                "hasAccess": true,
-                                "id": "2",
-                                "isBookmarked": false,
-                                "isMember": true,
-                                "name": "Project Name",
-                                "platform": "javascript",
-                                "slug": "project-slug",
-                                "stats": Array [
-                                  Array [
-                                    1525042800,
-                                    1,
-                                  ],
-                                  Array [
-                                    1525046400,
-                                    2,
-                                  ],
-                                ],
-                                "teams": Array [],
-                              }
-                            }
+                          <BaseBadgeWrapper
+                            className="css-k5ntz1-StyledIdBadge e1o95it05"
                           >
-                            <BaseBadgeWrapper
-                              className="css-1gy4gs4-StyledIdBadge e1o95it05"
+                            <div
+                              className="e1o95it05 css-na2q6v-BaseBadgeWrapper-StyledIdBadge e165dl3i0"
                             >
-                              <div
-                                className="e1o95it05 css-18f42c1-BaseBadgeWrapper-StyledIdBadge e165dl3i0"
+                              <EmotionCssPropInternal
+                                __EMOTION_TYPE_PLEASE_DO_NOT_USE__={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "__emotion_base": [Function],
+                                    "__emotion_forwardProp": undefined,
+                                    "__emotion_real": [Circular],
+                                    "__emotion_styles": Array [
+                                      "label:StyledAvatar;",
+                                      "margin-right:",
+                                      [Function],
+                                      ";flex-shrink:0;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJhc2VCYWRnZS5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBc0dtQyIsImZpbGUiOiJiYXNlQmFkZ2UuanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5cbmltcG9ydCBBdmF0YXIgZnJvbSAnYXBwL2NvbXBvbmVudHMvYXZhdGFyJztcbmltcG9ydCBzcGFjZSBmcm9tICdhcHAvc3R5bGVzL3NwYWNlJztcbmltcG9ydCBvdmVyZmxvd0VsbGlwc2lzIGZyb20gJ2FwcC9zdHlsZXMvb3ZlcmZsb3dFbGxpcHNpcyc7XG5pbXBvcnQgU2VudHJ5VHlwZXMgZnJvbSAnYXBwL3NlbnRyeVR5cGVzJztcblxuY29uc3QgQmFzaWNNb2RlbFNoYXBlID0gUHJvcFR5cGVzLnNoYXBlKHtzbHVnOiBQcm9wVHlwZXMuc3RyaW5nfSk7XG5cbmNsYXNzIEJhc2VCYWRnZSBleHRlbmRzIFJlYWN0LlB1cmVDb21wb25lbnQge1xuICBzdGF0aWMgcHJvcFR5cGVzID0ge1xuICAgIHRlYW06IFByb3BUeXBlcy5vbmVPZlR5cGUoW0Jhc2ljTW9kZWxTaGFwZSwgU2VudHJ5VHlwZXMuVGVhbV0pLFxuICAgIG9yZ2FuaXphdGlvbjogUHJvcFR5cGVzLm9uZU9mVHlwZShbQmFzaWNNb2RlbFNoYXBlLCBTZW50cnlUeXBlcy5Pcmdhbml6YXRpb25dKSxcbiAgICBwcm9qZWN0OiBQcm9wVHlwZXMub25lT2ZUeXBlKFtCYXNpY01vZGVsU2hhcGUsIFNlbnRyeVR5cGVzLlByb2plY3RdKSxcbiAgICBtZW1iZXI6IFByb3BUeXBlcy5vbmVPZlR5cGUoW0Jhc2ljTW9kZWxTaGFwZSwgU2VudHJ5VHlwZXMuTWVtYmVyXSksXG4gICAgdXNlcjogUHJvcFR5cGVzLm9uZU9mVHlwZShbQmFzaWNNb2RlbFNoYXBlLCBTZW50cnlUeXBlcy5Vc2VyXSksXG5cbiAgICAvKipcbiAgICAgKiBBdmF0YXIgc2l6ZVxuICAgICAqL1xuICAgIGF2YXRhclNpemU6IFByb3BUeXBlcy5udW1iZXIsXG5cbiAgICAvKipcbiAgICAgKiBIaWRlcyB0aGUgYXZhdGFyXG4gICAgICovXG4gICAgaGlkZUF2YXRhcjogUHJvcFR5cGVzLmJvb2wsXG5cbiAgICAvKipcbiAgICAgKiBBZGRpdGlvbmFsIHByb3BzIGZvciBBdmF0YXIgY29tcG9uZW50XG4gICAgICovXG4gICAgYXZhdGFyUHJvcHM6IFByb3BUeXBlcy5vYmplY3QsXG5cbiAgICAvKipcbiAgICAgKiBIaWRlcyB0aGUgbWFpbiBkaXNwbGF5IG5hbWVcbiAgICAgKi9cbiAgICBoaWRlTmFtZTogUHJvcFR5cGVzLmJvb2wsXG5cbiAgICBjbGFzc05hbWU6IFByb3BUeXBlcy5zdHJpbmcsXG4gICAgZGlzcGxheU5hbWU6IFByb3BUeXBlcy5ub2RlLFxuICAgIGRlc2NyaXB0aW9uOiBQcm9wVHlwZXMubm9kZSxcbiAgICBhdmF0YXJDbGFzc05hbWU6IFByb3BUeXBlcy5vbmVPZlR5cGUoW1Byb3BUeXBlcy5zdHJpbmcsIFByb3BUeXBlcy5vYmplY3RdKSxcbiAgfTtcblxuICBzdGF0aWMgZGVmYXVsdFByb3BzID0ge1xuICAgIGF2YXRhclByb3BzOiB7fSxcbiAgICBhdmF0YXJTaXplOiAyNCxcbiAgICBoaWRlQXZhdGFyOiBmYWxzZSxcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgY29uc3Qge1xuICAgICAgY2xhc3NOYW1lLFxuICAgICAgaGlkZUF2YXRhcixcbiAgICAgIGhpZGVOYW1lLFxuICAgICAgYXZhdGFyU2l6ZSxcbiAgICAgIGF2YXRhckNsYXNzTmFtZSxcbiAgICAgIGRpc3BsYXlOYW1lLFxuICAgICAgZGVzY3JpcHRpb24sXG4gICAgICBhdmF0YXJQcm9wcyxcbiAgICAgIHRlYW0sXG4gICAgICBvcmdhbml6YXRpb24sXG4gICAgICBwcm9qZWN0LFxuICAgIH0gPSB0aGlzLnByb3BzO1xuXG4gICAgY29uc3QgZGF0YSA9IHtcbiAgICAgIHRlYW0sXG4gICAgICBvcmdhbml6YXRpb24sXG4gICAgICBwcm9qZWN0LFxuICAgIH07XG5cbiAgICByZXR1cm4gKFxuICAgICAgPEJhc2VCYWRnZVdyYXBwZXIgY2xhc3NOYW1lPXtjbGFzc05hbWV9PlxuICAgICAgICB7IWhpZGVBdmF0YXIgJiYgKFxuICAgICAgICAgIDxTdHlsZWRBdmF0YXJcbiAgICAgICAgICAgIGNzcz17YXZhdGFyQ2xhc3NOYW1lfVxuICAgICAgICAgICAgc2l6ZT17YXZhdGFyU2l6ZX1cbiAgICAgICAgICAgIGhpZGVOYW1lPXtoaWRlTmFtZX1cbiAgICAgICAgICAgIHsuLi5hdmF0YXJQcm9wcyB8fCB7fX1cbiAgICAgICAgICAgIHsuLi5kYXRhfVxuICAgICAgICAgIC8+XG4gICAgICAgICl9XG5cbiAgICAgICAgPERpc3BsYXlOYW1lQW5kRGVzY3JpcHRpb24+XG4gICAgICAgICAgeyFoaWRlTmFtZSAmJiAoXG4gICAgICAgICAgICA8RGlzcGxheU5hbWUgZGF0YS10ZXN0LWlkPVwiYmFkZ2UtZGlzcGxheS1uYW1lXCI+e2Rpc3BsYXlOYW1lfTwvRGlzcGxheU5hbWU+XG4gICAgICAgICAgKX1cbiAgICAgICAgICB7ISFkZXNjcmlwdGlvbiAmJiA8RGVzY3JpcHRpb24+e2Rlc2NyaXB0aW9ufTwvRGVzY3JpcHRpb24+fVxuICAgICAgICA8L0Rpc3BsYXlOYW1lQW5kRGVzY3JpcHRpb24+XG4gICAgICA8L0Jhc2VCYWRnZVdyYXBwZXI+XG4gICAgKTtcbiAgfVxufVxuXG5jb25zdCBCYXNlQmFkZ2VXcmFwcGVyID0gc3R5bGVkKCdkaXYnKWBcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbmA7XG5cbmV4cG9ydCBkZWZhdWx0IEJhc2VCYWRnZTtcblxuY29uc3QgU3R5bGVkQXZhdGFyID0gc3R5bGVkKEF2YXRhcilgXG4gIG1hcmdpbi1yaWdodDogJHtwID0+IChwLmhpZGVOYW1lID8gMCA6IHNwYWNlKDEpKX07XG4gIGZsZXgtc2hyaW5rOiAwO1xuYDtcblxuY29uc3QgRGlzcGxheU5hbWVBbmREZXNjcmlwdGlvbiA9IHN0eWxlZCgnZGl2JylgXG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGxpbmUtaGVpZ2h0OiAxO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuYDtcblxuY29uc3QgRGlzcGxheU5hbWUgPSBzdHlsZWQoJ3NwYW4nKWBcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgdGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7XG4gIGxpbmUtaGVpZ2h0OiAxLjI7XG5gO1xuXG5jb25zdCBEZXNjcmlwdGlvbiA9IHN0eWxlZCgnZGl2JylgXG4gIGZvbnQtc2l6ZTogMC44NzVlbTtcbiAgbWFyZ2luLXRvcDogJHtzcGFjZSgwLjI1KX07XG4gIGNvbG9yOiAke3AgPT4gcC50aGVtZS5ncmF5Mn07XG4gIGxpbmUtaGVpZ2h0OiAxNHB4O1xuICAke292ZXJmbG93RWxsaXBzaXN9O1xuYDtcbiJdfQ== */",
+                                    ],
+                                    "defaultProps": Object {
+                                      "hasTooltip": false,
+                                    },
+                                    "displayName": "StyledAvatar",
+                                    "render": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                project={
+                                  Object {
+                                    "environments": Array [],
+                                    "hasAccess": true,
+                                    "id": "2",
+                                    "isBookmarked": false,
+                                    "isMember": true,
+                                    "name": "Project Name",
+                                    "platform": "javascript",
+                                    "slug": "project-slug",
+                                    "stats": Array [
+                                      Array [
+                                        1525042800,
+                                        1,
+                                      ],
+                                      Array [
+                                        1525046400,
+                                        2,
+                                      ],
+                                    ],
+                                    "teams": Array [],
+                                  }
+                                }
+                                size={18}
                               >
                                 <StyledAvatar
                                   className="css-0"
@@ -268,7 +309,7 @@ exports[`ProjectCard renders 1`] = `
                                   size={18}
                                 >
                                   <Avatar
-                                    className="css-robds0-StyledAvatar e165dl3i1"
+                                    className="css-1neg7x4-StyledAvatar e165dl3i1"
                                     hasTooltip={false}
                                     project={
                                       Object {
@@ -296,7 +337,7 @@ exports[`ProjectCard renders 1`] = `
                                     size={18}
                                   >
                                     <ProjectAvatar
-                                      className="css-robds0-StyledAvatar e165dl3i1"
+                                      className="css-1neg7x4-StyledAvatar e165dl3i1"
                                       hasTooltip={false}
                                       project={
                                         Object {
@@ -324,7 +365,7 @@ exports[`ProjectCard renders 1`] = `
                                       size={18}
                                     >
                                       <PlatformList
-                                        className="css-robds0-StyledAvatar e165dl3i1"
+                                        className="css-1neg7x4-StyledAvatar e165dl3i1"
                                         consistentWidth={false}
                                         direction="right"
                                         hasTooltip={false}
@@ -337,14 +378,14 @@ exports[`ProjectCard renders 1`] = `
                                         size={18}
                                       >
                                         <PlatformIcons
-                                          className="css-robds0-StyledAvatar e165dl3i1"
+                                          className="css-1neg7x4-StyledAvatar e165dl3i1"
                                           consistentWidth={false}
                                           direction="right"
                                           max={1}
                                           size={18}
                                         >
                                           <div
-                                            className="e165dl3i1 css-1cou1l3-PlatformIcons-StyledAvatar ezvce7z0"
+                                            className="e165dl3i1 css-corue1-PlatformIcons-StyledAvatar ezvce7z0"
                                             direction="right"
                                             max={1}
                                             size={18}
@@ -355,17 +396,17 @@ exports[`ProjectCard renders 1`] = `
                                               size={18}
                                             >
                                               <Component
-                                                className="css-13qi1e0-StyledPlatformIcon ezvce7z1"
+                                                className="css-d510pr-StyledPlatformIcon ezvce7z1"
                                                 platform="javascript"
                                                 size={18}
                                               >
                                                 <Platformicon
-                                                  className="css-13qi1e0-StyledPlatformIcon ezvce7z1"
+                                                  className="css-d510pr-StyledPlatformIcon ezvce7z1"
                                                   platform="javascript"
                                                   size="18px"
                                                 >
                                                   <img
-                                                    className="css-13qi1e0-StyledPlatformIcon ezvce7z1"
+                                                    className="css-d510pr-StyledPlatformIcon ezvce7z1"
                                                     height="18px"
                                                     src={
                                                       Object {
@@ -386,33 +427,96 @@ exports[`ProjectCard renders 1`] = `
                                     </ProjectAvatar>
                                   </Avatar>
                                 </StyledAvatar>
-                                <DisplayNameAndDescription>
-                                  <div
-                                    className="css-1yzfvrt-DisplayNameAndDescription e165dl3i2"
+                              </EmotionCssPropInternal>
+                              <DisplayNameAndDescription>
+                                <div
+                                  className="css-1d2tk0c-DisplayNameAndDescription e165dl3i2"
+                                >
+                                  <DisplayName
+                                    data-test-id="badge-display-name"
                                   >
-                                    <DisplayName
+                                    <span
+                                      className="css-1exc02x-DisplayName e165dl3i3"
                                       data-test-id="badge-display-name"
                                     >
-                                      <span
-                                        className="css-d0rtl9-DisplayName e165dl3i3"
-                                        data-test-id="badge-display-name"
-                                      >
-                                        <span>
-                                          project-slug
-                                        </span>
+                                      <span>
+                                        project-slug
                                       </span>
-                                    </DisplayName>
-                                  </div>
-                                </DisplayNameAndDescription>
-                              </div>
-                            </BaseBadgeWrapper>
-                          </BaseBadge>
-                        </ProjectBadge>
-                      </ErrorBoundary>
-                    </InlineErrorBoundary>
-                  </IdBadge>
-                </StyledIdBadge>
-                <withApi(BookmarkStar)
+                                    </span>
+                                  </DisplayName>
+                                </div>
+                              </DisplayNameAndDescription>
+                            </div>
+                          </BaseBadgeWrapper>
+                        </BaseBadge>
+                      </ProjectBadge>
+                    </ErrorBoundary>
+                  </InlineErrorBoundary>
+                </IdBadge>
+              </StyledIdBadge>
+              <withApi(BookmarkStar)
+                organization={
+                  Object {
+                    "access": Array [
+                      "org:read",
+                      "org:write",
+                      "org:admin",
+                      "org:integrations",
+                      "project:read",
+                      "project:write",
+                      "project:admin",
+                      "team:read",
+                      "team:write",
+                      "team:admin",
+                    ],
+                    "features": Array [],
+                    "id": "3",
+                    "name": "Organization Name",
+                    "onboardingTasks": Array [],
+                    "projects": Array [],
+                    "scrapeJavaScript": true,
+                    "slug": "org-slug",
+                    "status": Object {
+                      "id": "active",
+                      "name": "active",
+                    },
+                    "teams": Array [],
+                  }
+                }
+                project={
+                  Object {
+                    "environments": Array [],
+                    "hasAccess": true,
+                    "id": "2",
+                    "isBookmarked": false,
+                    "isMember": true,
+                    "name": "Project Name",
+                    "platform": "javascript",
+                    "slug": "project-slug",
+                    "stats": Array [
+                      Array [
+                        1525042800,
+                        1,
+                      ],
+                      Array [
+                        1525046400,
+                        2,
+                      ],
+                    ],
+                    "teams": Array [],
+                  }
+                }
+              >
+                <BookmarkStar
+                  api={
+                    Client {
+                      "_chain": [Function],
+                      "_wrapRequest": [Function],
+                      "bulkUpdate": [Function],
+                      "handleRequestError": [Function],
+                      "hasProjectBeenRenamed": [Function],
+                    }
+                  }
                   organization={
                     Object {
                       "access": Array [
@@ -465,118 +569,74 @@ exports[`ProjectCard renders 1`] = `
                     }
                   }
                 >
-                  <BookmarkStar
-                    api={
-                      Client {
-                        "_chain": [Function],
-                        "_wrapRequest": [Function],
-                        "bulkUpdate": [Function],
-                        "handleRequestError": [Function],
-                        "hasProjectBeenRenamed": [Function],
-                      }
-                    }
-                    organization={
-                      Object {
-                        "access": Array [
-                          "org:read",
-                          "org:write",
-                          "org:admin",
-                          "org:integrations",
-                          "project:read",
-                          "project:write",
-                          "project:admin",
-                          "team:read",
-                          "team:write",
-                          "team:admin",
-                        ],
-                        "features": Array [],
-                        "id": "3",
-                        "name": "Organization Name",
-                        "onboardingTasks": Array [],
-                        "projects": Array [],
-                        "scrapeJavaScript": true,
-                        "slug": "org-slug",
-                        "status": Object {
-                          "id": "active",
-                          "name": "active",
-                        },
-                        "teams": Array [],
-                      }
-                    }
-                    project={
-                      Object {
-                        "environments": Array [],
-                        "hasAccess": true,
-                        "id": "2",
-                        "isBookmarked": false,
-                        "isMember": true,
-                        "name": "Project Name",
-                        "platform": "javascript",
-                        "slug": "project-slug",
-                        "stats": Array [
-                          Array [
-                            1525042800,
-                            1,
-                          ],
-                          Array [
-                            1525046400,
-                            2,
-                          ],
-                        ],
-                        "teams": Array [],
-                      }
-                    }
+                  <Star
+                    isBookmarked={false}
+                    onClick={[Function]}
+                    src="icon-star-small-filled"
                   >
-                    <Star
+                    <ForwardRef
+                      className="css-14v6jxx-InlineSvg-Star e5ekdrk0"
                       isBookmarked={false}
                       onClick={[Function]}
                       src="icon-star-small-filled"
                     >
-                      <ForwardRef
-                        className="css-1lg61nd-InlineSvg-Star e5ekdrk0"
-                        isBookmarked={false}
+                      <svg
+                        className="css-14v6jxx-InlineSvg-Star e5ekdrk0"
+                        height="1em"
                         onClick={[Function]}
-                        src="icon-star-small-filled"
+                        viewBox={Object {}}
+                        width="1em"
                       >
-                        <svg
-                          className="css-1lg61nd-InlineSvg-Star e5ekdrk0"
-                          height="1em"
-                          onClick={[Function]}
-                          viewBox={Object {}}
-                          width="1em"
-                        >
-                          <use
-                            href="#test"
-                            xlinkHref="#test"
-                          />
-                        </svg>
-                      </ForwardRef>
-                    </Star>
-                  </BookmarkStar>
-                </withApi(BookmarkStar)>
-              </div>
-            </StyledProjectCardHeader>
-            <ChartContainer>
-              <div
-                className="css-1s8o1vf-ChartContainer e1o95it00"
-              >
-                <Chart
-                  noEvents={true}
-                  stats={
+                        <use
+                          href="#test"
+                          xlinkHref="#test"
+                        />
+                      </svg>
+                    </ForwardRef>
+                  </Star>
+                </BookmarkStar>
+              </withApi(BookmarkStar)>
+            </div>
+          </StyledProjectCardHeader>
+          <ChartContainer>
+            <div
+              className="css-3rk05l-ChartContainer e1o95it00"
+            >
+              <Chart
+                noEvents={true}
+                stats={
+                  Array [
                     Array [
+                      1525042800,
+                      1,
+                    ],
+                    Array [
+                      1525046400,
+                      2,
+                    ],
+                  ]
+                }
+              >
+                <div>
+                  <StyledBarChart
+                    gap={1.5}
+                    height={60}
+                    label="events"
+                    points={
                       Array [
-                        1525042800,
-                        1,
-                      ],
-                      Array [
-                        1525046400,
-                        2,
-                      ],
-                    ]
-                  }
-                >
-                  <div>
-                    <StyledBarChart
+                        Object {
+                          "x": 1525042800,
+                          "y": 1,
+                        },
+                        Object {
+                          "x": 1525046400,
+                          "y": 2,
+                        },
+                      ]
+                    }
+                  >
+                    <BarChart
+                      className="css-4cbp86-StyledBarChart e1aigaye0"
                       gap={1.5}
                       height={60}
                       label="events"
@@ -593,56 +653,47 @@ exports[`ProjectCard renders 1`] = `
                         ]
                       }
                     >
-                      <BarChart
-                        className="css-h6aoq0-StyledBarChart e1aigaye0"
+                      <StackedBarChart
+                        barClasses={
+                          Array [
+                            "chart-bar",
+                          ]
+                        }
+                        className="css-4cbp86-StyledBarChart e1aigaye0"
                         gap={1.5}
                         height={60}
                         label="events"
+                        markers={Array []}
                         points={
                           Array [
                             Object {
                               "x": 1525042800,
-                              "y": 1,
+                              "y": Array [
+                                1,
+                              ],
                             },
                             Object {
                               "x": 1525046400,
-                              "y": 2,
+                              "y": Array [
+                                2,
+                              ],
                             },
                           ]
                         }
+                        series={Array []}
+                        width={null}
                       >
-                        <StackedBarChart
-                          barClasses={
-                            Array [
-                              "chart-bar",
-                            ]
+                        <StyledFigure
+                          className="css-4cbp86-StyledBarChart e1aigaye0 barchart"
+                          style={
+                            Object {
+                              "height": 60,
+                              "width": null,
+                            }
                           }
-                          className="css-h6aoq0-StyledBarChart e1aigaye0"
-                          gap={1.5}
-                          height={60}
-                          label="events"
-                          markers={Array []}
-                          points={
-                            Array [
-                              Object {
-                                "x": 1525042800,
-                                "y": Array [
-                                  1,
-                                ],
-                              },
-                              Object {
-                                "x": 1525046400,
-                                "y": Array [
-                                  2,
-                                ],
-                              },
-                            ]
-                          }
-                          series={Array []}
-                          width={null}
                         >
-                          <StyledFigure
-                            className="css-h6aoq0-StyledBarChart e1aigaye0 barchart"
+                          <figure
+                            className="e1aigaye0 barchart css-1law1hb-StyledFigure-StyledBarChart e5t71581"
                             style={
                               Object {
                                 "height": 60,
@@ -650,371 +701,348 @@ exports[`ProjectCard renders 1`] = `
                               }
                             }
                           >
-                            <figure
-                              className="e1aigaye0 barchart css-caakmb-StyledFigure-StyledBarChart e5t71581"
-                              style={
-                                Object {
-                                  "height": 60,
-                                  "width": null,
-                                }
-                              }
+                            <span
+                              className="max-y"
                             >
-                              <span
-                                className="max-y"
+                              <Count
+                                value={10}
                               >
-                                <Count
-                                  value={10}
-                                >
-                                  <span>
-                                    10
-                                  </span>
-                                </Count>
-                              </span>
-                              <span
-                                className="min-y"
+                                <span>
+                                  10
+                                </span>
+                              </Count>
+                            </span>
+                            <span
+                              className="min-y"
+                            >
+                              0
+                            </span>
+                            <SvgContainer>
+                              <div
+                                className="css-6tdbe5-SvgContainer e5t71582"
                               >
-                                0
-                              </span>
-                              <SvgContainer>
-                                <div
-                                  className="css-1jg1opr-SvgContainer e5t71582"
+                                <StyledSvg
+                                  overflow="visible"
+                                  preserveAspectRatio="none"
+                                  viewBox="0 0 100 400"
                                 >
-                                  <StyledSvg
+                                  <svg
+                                    className="css-1w5ytn5-StyledSvg e5t71580"
                                     overflow="visible"
                                     preserveAspectRatio="none"
                                     viewBox="0 0 100 400"
                                   >
-                                    <svg
-                                      className="css-e6bn68-StyledSvg e5t71580"
-                                      overflow="visible"
-                                      preserveAspectRatio="none"
-                                      viewBox="0 0 100 400"
+                                    <Tooltip
+                                      containerDisplayMode="inline-block"
+                                      key="1525042800"
+                                      position="bottom"
+                                      title={
+                                        <React.Fragment>
+                                          <div
+                                            style={
+                                              Object {
+                                                "width": "130px",
+                                              }
+                                            }
+                                          >
+                                            <div
+                                              className="time-label"
+                                            >
+                                              <span>
+                                                April 29, 2018
+                                                <br />
+                                                11:00 PM
+                                                →
+                                                11:59 PM
+                                              </span>
+                                            </div>
+                                          </div>
+                                          <div
+                                            className="value-label"
+                                          >
+                                            1
+                                             
+                                            events
+                                          </div>
+                                        </React.Fragment>
+                                      }
                                     >
-                                      <Tooltip
-                                        containerDisplayMode="inline-block"
-                                        key="1525042800"
-                                        position="bottom"
-                                        title={
-                                          <React.Fragment>
-                                            <div
-                                              style={
-                                                Object {
-                                                  "width": "130px",
-                                                }
+                                      <Manager>
+                                        <Reference>
+                                          <InnerReference
+                                            setReferenceNode={[Function]}
+                                          >
+                                            <g
+                                              aria-describedby="tooltip-123456"
+                                              onBlur={[Function]}
+                                              onFocus={[Function]}
+                                              onMouseEnter={[Function]}
+                                              onMouseLeave={[Function]}
+                                            >
+                                              <rect
+                                                height="100%"
+                                                opacity="0"
+                                                width="52.3%"
+                                                x="-1.5%"
+                                              />
+                                              <rect
+                                                className="chart-bar barchart-rect"
+                                                data-test-id="chart-column"
+                                                height="9.9%"
+                                                key="0"
+                                                width="49.3%"
+                                                x="0%"
+                                                y="90.1%"
+                                              >
+                                                1
+                                              </rect>
+                                            </g>
+                                          </InnerReference>
+                                        </Reference>
+                                      </Manager>
+                                    </Tooltip>
+                                    <Tooltip
+                                      containerDisplayMode="inline-block"
+                                      key="1525046400"
+                                      position="bottom"
+                                      title={
+                                        <React.Fragment>
+                                          <div
+                                            style={
+                                              Object {
+                                                "width": "130px",
                                               }
-                                            >
-                                              <div
-                                                className="time-label"
-                                              >
-                                                <span>
-                                                  April 29, 2018
-                                                  <br />
-                                                  11:00 PM
-                                                  →
-                                                  11:59 PM
-                                                </span>
-                                              </div>
-                                            </div>
+                                            }
+                                          >
                                             <div
-                                              className="value-label"
+                                              className="time-label"
                                             >
-                                              1
-                                               
-                                              events
+                                              <span>
+                                                April 30, 2018
+                                                <br />
+                                                12:00 AM
+                                                →
+                                                12:59 AM
+                                              </span>
                                             </div>
-                                          </React.Fragment>
-                                        }
-                                      >
-                                        <Manager>
-                                          <Reference>
-                                            <InnerReference
-                                              setReferenceNode={[Function]}
+                                          </div>
+                                          <div
+                                            className="value-label"
+                                          >
+                                            2
+                                             
+                                            events
+                                          </div>
+                                        </React.Fragment>
+                                      }
+                                    >
+                                      <Manager>
+                                        <Reference>
+                                          <InnerReference
+                                            setReferenceNode={[Function]}
+                                          >
+                                            <g
+                                              aria-describedby="tooltip-123456"
+                                              onBlur={[Function]}
+                                              onFocus={[Function]}
+                                              onMouseEnter={[Function]}
+                                              onMouseLeave={[Function]}
                                             >
-                                              <g
-                                                aria-describedby="tooltip-123456"
-                                                onBlur={[Function]}
-                                                onFocus={[Function]}
-                                                onMouseEnter={[Function]}
-                                                onMouseLeave={[Function]}
+                                              <rect
+                                                height="100%"
+                                                opacity="0"
+                                                width="52.3%"
+                                                x="49.3%"
+                                              />
+                                              <rect
+                                                className="chart-bar barchart-rect"
+                                                data-test-id="chart-column"
+                                                height="19.8%"
+                                                key="0"
+                                                width="49.3%"
+                                                x="50.8%"
+                                                y="80.2%"
                                               >
-                                                <rect
-                                                  height="100%"
-                                                  opacity="0"
-                                                  width="52.3%"
-                                                  x="-1.5%"
-                                                />
-                                                <rect
-                                                  className="chart-bar barchart-rect"
-                                                  data-test-id="chart-column"
-                                                  height="9.9%"
-                                                  key="0"
-                                                  width="49.3%"
-                                                  x="0%"
-                                                  y="90.1%"
-                                                >
-                                                  1
-                                                </rect>
-                                              </g>
-                                            </InnerReference>
-                                          </Reference>
-                                        </Manager>
-                                      </Tooltip>
-                                      <Tooltip
-                                        containerDisplayMode="inline-block"
-                                        key="1525046400"
-                                        position="bottom"
-                                        title={
-                                          <React.Fragment>
-                                            <div
-                                              style={
-                                                Object {
-                                                  "width": "130px",
-                                                }
-                                              }
-                                            >
-                                              <div
-                                                className="time-label"
-                                              >
-                                                <span>
-                                                  April 30, 2018
-                                                  <br />
-                                                  12:00 AM
-                                                  →
-                                                  12:59 AM
-                                                </span>
-                                              </div>
-                                            </div>
-                                            <div
-                                              className="value-label"
-                                            >
-                                              2
-                                               
-                                              events
-                                            </div>
-                                          </React.Fragment>
-                                        }
-                                      >
-                                        <Manager>
-                                          <Reference>
-                                            <InnerReference
-                                              setReferenceNode={[Function]}
-                                            >
-                                              <g
-                                                aria-describedby="tooltip-123456"
-                                                onBlur={[Function]}
-                                                onFocus={[Function]}
-                                                onMouseEnter={[Function]}
-                                                onMouseLeave={[Function]}
-                                              >
-                                                <rect
-                                                  height="100%"
-                                                  opacity="0"
-                                                  width="52.3%"
-                                                  x="49.3%"
-                                                />
-                                                <rect
-                                                  className="chart-bar barchart-rect"
-                                                  data-test-id="chart-column"
-                                                  height="19.8%"
-                                                  key="0"
-                                                  width="49.3%"
-                                                  x="50.8%"
-                                                  y="80.2%"
-                                                >
-                                                  2
-                                                </rect>
-                                              </g>
-                                            </InnerReference>
-                                          </Reference>
-                                        </Manager>
-                                      </Tooltip>
-                                    </svg>
-                                  </StyledSvg>
-                                </div>
-                              </SvgContainer>
-                            </figure>
-                          </StyledFigure>
-                        </StackedBarChart>
-                      </BarChart>
-                    </StyledBarChart>
+                                                2
+                                              </rect>
+                                            </g>
+                                          </InnerReference>
+                                        </Reference>
+                                      </Manager>
+                                    </Tooltip>
+                                  </svg>
+                                </StyledSvg>
+                              </div>
+                            </SvgContainer>
+                          </figure>
+                        </StyledFigure>
+                      </StackedBarChart>
+                    </BarChart>
+                  </StyledBarChart>
+                </div>
+              </Chart>
+              <NoEvents>
+                <Container>
+                  <div
+                    className="css-15s27md-Container e1acggzn0"
+                  >
+                    <EmptyText>
+                      <div
+                        className="css-1txj62-EmptyText e1acggzn1"
+                      >
+                        No activity yet.
+                      </div>
+                    </EmptyText>
                   </div>
-                </Chart>
-                <NoEvents>
-                  <Container>
-                    <div
-                      className="css-1m9okvh-Container e1acggzn0"
-                    >
-                      <EmptyText>
-                        <div
-                          className="css-jwuatb-EmptyText e1acggzn1"
-                        >
-                          No activity yet.
-                        </div>
-                      </EmptyText>
-                    </div>
-                  </Container>
-                </NoEvents>
-              </div>
-            </ChartContainer>
-            <Deploys
-              organization={
-                Object {
-                  "access": Array [
-                    "org:read",
-                    "org:write",
-                    "org:admin",
-                    "org:integrations",
-                    "project:read",
-                    "project:write",
-                    "project:admin",
-                    "team:read",
-                    "team:write",
-                    "team:admin",
-                  ],
-                  "features": Array [],
-                  "id": "3",
-                  "name": "Organization Name",
-                  "onboardingTasks": Array [],
-                  "projects": Array [],
-                  "scrapeJavaScript": true,
-                  "slug": "org-slug",
-                  "status": Object {
-                    "id": "active",
-                    "name": "active",
-                  },
-                  "teams": Array [],
-                }
+                </Container>
+              </NoEvents>
+            </div>
+          </ChartContainer>
+          <Deploys
+            organization={
+              Object {
+                "access": Array [
+                  "org:read",
+                  "org:write",
+                  "org:admin",
+                  "org:integrations",
+                  "project:read",
+                  "project:write",
+                  "project:admin",
+                  "team:read",
+                  "team:write",
+                  "team:admin",
+                ],
+                "features": Array [],
+                "id": "3",
+                "name": "Organization Name",
+                "onboardingTasks": Array [],
+                "projects": Array [],
+                "scrapeJavaScript": true,
+                "slug": "org-slug",
+                "status": Object {
+                  "id": "active",
+                  "name": "active",
+                },
+                "teams": Array [],
               }
-              project={
-                Object {
-                  "environments": Array [],
-                  "hasAccess": true,
-                  "id": "2",
-                  "isBookmarked": false,
-                  "isMember": true,
-                  "name": "Project Name",
-                  "platform": "javascript",
-                  "slug": "project-slug",
-                  "stats": Array [
-                    Array [
-                      1525042800,
-                      1,
-                    ],
-                    Array [
-                      1525046400,
-                      2,
-                    ],
+            }
+            project={
+              Object {
+                "environments": Array [],
+                "hasAccess": true,
+                "id": "2",
+                "isBookmarked": false,
+                "isMember": true,
+                "name": "Project Name",
+                "platform": "javascript",
+                "slug": "project-slug",
+                "stats": Array [
+                  Array [
+                    1525042800,
+                    1,
                   ],
-                  "teams": Array [],
-                }
+                  Array [
+                    1525046400,
+                    2,
+                  ],
+                ],
+                "teams": Array [],
               }
-            >
-              <NoDeploys>
-                <DeployBox
-                  p={2}
+            }
+          >
+            <NoDeploys>
+              <DeployBox
+                p={2}
+              >
+                <div
+                  className="css-3xmkat-DeployBox elff1ar5"
                 >
-                  <Base
-                    className="css-1y6xtyw-DeployBox elff1ar5"
-                    p={2}
+                  <Background
+                    alignItems="center"
+                    justifyContent="center"
                   >
                     <div
-                      className="css-1y6xtyw-DeployBox elff1ar5"
-                      is={null}
+                      className="css-s8wexh-Background elff1ar6"
                     >
-                      <Background
+                      <Button
                         align="center"
-                        justify="center"
+                        disabled={false}
+                        external={true}
+                        href="https://docs.sentry.io/learn/releases/"
+                        size="xsmall"
                       >
-                        <Base
-                          align="center"
-                          className="css-itelel-Background elff1ar6"
-                          justify="center"
+                        <StyledButton
+                          aria-disabled={false}
+                          aria-label="Track deploys"
+                          disabled={false}
+                          external={true}
+                          href="https://docs.sentry.io/learn/releases/"
+                          onClick={[Function]}
+                          role="button"
+                          size="xsmall"
                         >
-                          <div
-                            className="css-itelel-Background elff1ar6"
-                            is={null}
+                          <ForwardRef
+                            aria-disabled={false}
+                            aria-label="Track deploys"
+                            className="css-zv3cf1-StyledButton edwq9my0"
+                            disabled={false}
+                            external={true}
+                            href="https://docs.sentry.io/learn/releases/"
+                            onClick={[Function]}
+                            role="button"
+                            size="xsmall"
                           >
-                            <Button
-                              align="center"
-                              disabled={false}
-                              external={true}
+                            <ForwardRef
+                              aria-disabled={false}
+                              aria-label="Track deploys"
+                              className="css-zv3cf1-StyledButton edwq9my0"
                               href="https://docs.sentry.io/learn/releases/"
+                              onClick={[Function]}
+                              role="button"
                               size="xsmall"
                             >
-                              <StyledButton
+                              <a
                                 aria-disabled={false}
                                 aria-label="Track deploys"
-                                disabled={false}
-                                external={true}
+                                className="css-zv3cf1-StyledButton edwq9my0"
                                 href="https://docs.sentry.io/learn/releases/"
                                 onClick={[Function]}
+                                rel="noreferrer noopener"
                                 role="button"
                                 size="xsmall"
+                                target="_blank"
                               >
-                                <ForwardRef
-                                  aria-disabled={false}
-                                  aria-label="Track deploys"
-                                  className="css-z6hjis-StyledButton-getColors edwq9my0"
-                                  disabled={false}
-                                  external={true}
-                                  href="https://docs.sentry.io/learn/releases/"
-                                  onClick={[Function]}
-                                  role="button"
+                                <ButtonLabel
+                                  align="center"
                                   size="xsmall"
                                 >
-                                  <ForwardRef
-                                    aria-disabled={false}
-                                    aria-label="Track deploys"
-                                    className="css-z6hjis-StyledButton-getColors edwq9my0"
-                                    href="https://docs.sentry.io/learn/releases/"
-                                    onClick={[Function]}
-                                    role="button"
+                                  <Component
+                                    align="center"
+                                    className="css-cmi7y3-ButtonLabel edwq9my1"
                                     size="xsmall"
                                   >
-                                    <a
-                                      aria-disabled={false}
-                                      aria-label="Track deploys"
-                                      className="css-z6hjis-StyledButton-getColors edwq9my0"
-                                      href="https://docs.sentry.io/learn/releases/"
-                                      onClick={[Function]}
-                                      rel="noreferrer noopener"
-                                      role="button"
-                                      size="xsmall"
-                                      target="_blank"
+                                    <span
+                                      className="css-cmi7y3-ButtonLabel edwq9my1"
                                     >
-                                      <ButtonLabel
-                                        align="center"
-                                        size="xsmall"
-                                      >
-                                        <Component
-                                          align="center"
-                                          className="css-1bqncjo-ButtonLabel edwq9my1"
-                                          size="xsmall"
-                                        >
-                                          <span
-                                            className="css-1bqncjo-ButtonLabel edwq9my1"
-                                          >
-                                            Track deploys
-                                          </span>
-                                        </Component>
-                                      </ButtonLabel>
-                                    </a>
-                                  </ForwardRef>
-                                </ForwardRef>
-                              </StyledButton>
-                            </Button>
-                          </div>
-                        </Base>
-                      </Background>
+                                      Track deploys
+                                    </span>
+                                  </Component>
+                                </ButtonLabel>
+                              </a>
+                            </ForwardRef>
+                          </ForwardRef>
+                        </StyledButton>
+                      </Button>
                     </div>
-                  </Base>
-                </DeployBox>
-              </NoDeploys>
-            </Deploys>
-          </div>
-        </StyledProjectCard>
-      </div>
-    </Base>
+                  </Background>
+                </div>
+              </DeployBox>
+            </NoDeploys>
+          </Deploys>
+        </div>
+      </StyledProjectCard>
+    </div>
   </ProjectCardWrapper>
 </ProjectCard>
 `;

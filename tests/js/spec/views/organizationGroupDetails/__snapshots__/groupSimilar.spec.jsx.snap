@@ -341,10 +341,10 @@ exports[`Issues Similar View renders with mocked data 1`] = `
             </h2>
             <StyledSimilarSpectrum>
               <SimilarSpectrum
-                className="css-j2x47e-StyledSimilarSpectrum e1hn3xkk0"
+                className="css-4unnmj-StyledSimilarSpectrum e1hn3xkk0"
               >
                 <div
-                  className="css-j2x47e-StyledSimilarSpectrum e1hn3xkk0"
+                  className="css-4unnmj-StyledSimilarSpectrum e1hn3xkk0"
                 >
                   <span>
                     Similar
@@ -353,35 +353,35 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                     colorIndex={4}
                   >
                     <span
-                      className="css-1m9e7bp-SpectrumItem e1hn3xkk1"
+                      className="css-h1r3gt-SpectrumItem e1hn3xkk1"
                     />
                   </SpectrumItem>
                   <SpectrumItem
                     colorIndex={3}
                   >
                     <span
-                      className="css-1tn9u0a-SpectrumItem e1hn3xkk1"
+                      className="css-1j6o86h-SpectrumItem e1hn3xkk1"
                     />
                   </SpectrumItem>
                   <SpectrumItem
                     colorIndex={2}
                   >
                     <span
-                      className="css-zgizhk-SpectrumItem e1hn3xkk1"
+                      className="css-1pl5ll-SpectrumItem e1hn3xkk1"
                     />
                   </SpectrumItem>
                   <SpectrumItem
                     colorIndex={1}
                   >
                     <span
-                      className="css-1p9s53a-SpectrumItem e1hn3xkk1"
+                      className="css-w9x78l-SpectrumItem e1hn3xkk1"
                     />
                   </SpectrumItem>
                   <SpectrumItem
                     colorIndex={0}
                   >
                     <span
-                      className="css-pvajr0-SpectrumItem e1hn3xkk1"
+                      className="css-arcd4a-SpectrumItem e1hn3xkk1"
                     />
                   </SpectrumItem>
                   <span>
@@ -399,7 +399,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
             className="similar-toolbar"
           >
             <div
-              className="similar-toolbar css-o93ry2-Toolbar e1pdx9kr0"
+              className="similar-toolbar css-lblm1m-Toolbar e1pdx9kr0"
             >
               <SpreadLayout
                 center={true}
@@ -417,7 +417,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                     truncate={true}
                   >
                     <div
-                      className="css-gmt0em-FlowLayout envzszi0"
+                      className="css-dk1sds-FlowLayout envzszi0"
                       style={
                         Object {
                           "flex": 1,
@@ -428,7 +428,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                         truncate={true}
                       >
                         <div
-                          className="css-gmt0em-FlowLayout envzszi0"
+                          className="css-dk1sds-FlowLayout envzszi0"
                         >
                           <div
                             className="similar-toolbar-actions"
@@ -529,7 +529,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                       className="similar-score-column event-count-header"
                     >
                       <div
-                        className="similar-score-column event-count-header css-j72n3c-ToolbarHeader e8n6jt30"
+                        className="similar-score-column event-count-header css-1rwwmm2-ToolbarHeader e8n6jt30"
                       >
                         Events
                       </div>
@@ -538,7 +538,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                       className="similar-score-column event-similar-header"
                     >
                       <div
-                        className="similar-score-column event-similar-header css-j72n3c-ToolbarHeader e8n6jt30"
+                        className="similar-score-column event-similar-header css-1rwwmm2-ToolbarHeader e8n6jt30"
                       >
                         Exception
                       </div>
@@ -547,7 +547,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                       className="similar-score-column event-similar-header"
                     >
                       <div
-                        className="similar-score-column event-similar-header css-j72n3c-ToolbarHeader e8n6jt30"
+                        className="similar-score-column event-similar-header css-1rwwmm2-ToolbarHeader e8n6jt30"
                       >
                         Message
                       </div>
@@ -639,13 +639,13 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                   truncate={true}
                 >
                   <div
-                    className="css-gmt0em-FlowLayout envzszi0"
+                    className="css-dk1sds-FlowLayout envzszi0"
                   >
                     <FlowLayout
                       truncate={true}
                     >
                       <div
-                        className="css-gmt0em-FlowLayout envzszi0"
+                        className="css-dk1sds-FlowLayout envzszi0"
                       >
                         <div
                           className="action-column"
@@ -846,7 +846,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                   size="normal"
                                 >
                                   <div
-                                    className="css-10b3zgy-Title-truncateStyles eex8od0"
+                                    className="css-m7twxv-Title-truncateStyles eex8od0"
                                     size="normal"
                                   >
                                     <GlobalSelectionLink
@@ -897,7 +897,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                             level="error"
                                           >
                                             <div
-                                              className="css-1oawdkn-GroupLevel eex8od5"
+                                              className="css-1ipn9w2-GroupLevel eex8od5"
                                             >
                                               <Tooltip
                                                 containerDisplayMode="inline-block"
@@ -1088,7 +1088,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                   size="normal"
                                 >
                                   <div
-                                    className="css-brsp21-Message-truncateStyles eex8od2"
+                                    className="css-powhxs-Message-truncateStyles eex8od2"
                                     size="normal"
                                   >
                                     Cannot read property 'length' of undefined
@@ -1265,7 +1265,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                             >
                               <GroupExtra>
                                 <div
-                                  className="css-5nsonj-GroupExtra eec9orn0"
+                                  className="css-1s7tq6o-GroupExtra eec9orn0"
                                 >
                                   <GroupShortId
                                     avatar={
@@ -1301,7 +1301,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                           }
                                         />
                                       }
-                                      className="css-1r3d0zi-GroupShortId eec9orn3"
+                                      className="css-1fj2cf7-GroupShortId eec9orn3"
                                       shortId="INTERNAL-4G"
                                     >
                                       <StyledShortId
@@ -1320,12 +1320,12 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                             }
                                           />
                                         }
-                                        className="css-1r3d0zi-GroupShortId eec9orn3"
+                                        className="css-1fj2cf7-GroupShortId eec9orn3"
                                         onClick={[Function]}
                                         shortId="INTERNAL-4G"
                                       >
                                         <div
-                                          className="eec9orn3 css-h7na88-StyledShortId-GroupShortId ebuncw00"
+                                          className="eec9orn3 css-dcccbj-StyledShortId-GroupShortId ebuncw00"
                                           onClick={[Function]}
                                         >
                                           <ProjectBadge
@@ -1345,11 +1345,11 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                               avatarProps={Object {}}
                                               avatarSize={14}
                                               displayName={
-                                                <BadgeDisplayName
+                                                <ForwardRef(render)
                                                   hideOverflow={true}
                                                 >
                                                   project-slug
-                                                </BadgeDisplayName>
+                                                </ForwardRef(render)>
                                               }
                                               hideAvatar={false}
                                               hideName={true}
@@ -1363,11 +1363,29 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                             >
                                               <BaseBadgeWrapper>
                                                 <div
-                                                  className="css-td6t8v-BaseBadgeWrapper e165dl3i0"
+                                                  className="css-7m3eov-BaseBadgeWrapper e165dl3i0"
                                                 >
-                                                  <StyledAvatar
-                                                    className="css-0"
-                                                    hasTooltip={false}
+                                                  <EmotionCssPropInternal
+                                                    __EMOTION_TYPE_PLEASE_DO_NOT_USE__={
+                                                      Object {
+                                                        "$$typeof": Symbol(react.forward_ref),
+                                                        "__emotion_base": [Function],
+                                                        "__emotion_forwardProp": undefined,
+                                                        "__emotion_real": [Circular],
+                                                        "__emotion_styles": Array [
+                                                          "label:StyledAvatar;",
+                                                          "margin-right:",
+                                                          [Function],
+                                                          ";flex-shrink:0;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJhc2VCYWRnZS5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBc0dtQyIsImZpbGUiOiJiYXNlQmFkZ2UuanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5cbmltcG9ydCBBdmF0YXIgZnJvbSAnYXBwL2NvbXBvbmVudHMvYXZhdGFyJztcbmltcG9ydCBzcGFjZSBmcm9tICdhcHAvc3R5bGVzL3NwYWNlJztcbmltcG9ydCBvdmVyZmxvd0VsbGlwc2lzIGZyb20gJ2FwcC9zdHlsZXMvb3ZlcmZsb3dFbGxpcHNpcyc7XG5pbXBvcnQgU2VudHJ5VHlwZXMgZnJvbSAnYXBwL3NlbnRyeVR5cGVzJztcblxuY29uc3QgQmFzaWNNb2RlbFNoYXBlID0gUHJvcFR5cGVzLnNoYXBlKHtzbHVnOiBQcm9wVHlwZXMuc3RyaW5nfSk7XG5cbmNsYXNzIEJhc2VCYWRnZSBleHRlbmRzIFJlYWN0LlB1cmVDb21wb25lbnQge1xuICBzdGF0aWMgcHJvcFR5cGVzID0ge1xuICAgIHRlYW06IFByb3BUeXBlcy5vbmVPZlR5cGUoW0Jhc2ljTW9kZWxTaGFwZSwgU2VudHJ5VHlwZXMuVGVhbV0pLFxuICAgIG9yZ2FuaXphdGlvbjogUHJvcFR5cGVzLm9uZU9mVHlwZShbQmFzaWNNb2RlbFNoYXBlLCBTZW50cnlUeXBlcy5Pcmdhbml6YXRpb25dKSxcbiAgICBwcm9qZWN0OiBQcm9wVHlwZXMub25lT2ZUeXBlKFtCYXNpY01vZGVsU2hhcGUsIFNlbnRyeVR5cGVzLlByb2plY3RdKSxcbiAgICBtZW1iZXI6IFByb3BUeXBlcy5vbmVPZlR5cGUoW0Jhc2ljTW9kZWxTaGFwZSwgU2VudHJ5VHlwZXMuTWVtYmVyXSksXG4gICAgdXNlcjogUHJvcFR5cGVzLm9uZU9mVHlwZShbQmFzaWNNb2RlbFNoYXBlLCBTZW50cnlUeXBlcy5Vc2VyXSksXG5cbiAgICAvKipcbiAgICAgKiBBdmF0YXIgc2l6ZVxuICAgICAqL1xuICAgIGF2YXRhclNpemU6IFByb3BUeXBlcy5udW1iZXIsXG5cbiAgICAvKipcbiAgICAgKiBIaWRlcyB0aGUgYXZhdGFyXG4gICAgICovXG4gICAgaGlkZUF2YXRhcjogUHJvcFR5cGVzLmJvb2wsXG5cbiAgICAvKipcbiAgICAgKiBBZGRpdGlvbmFsIHByb3BzIGZvciBBdmF0YXIgY29tcG9uZW50XG4gICAgICovXG4gICAgYXZhdGFyUHJvcHM6IFByb3BUeXBlcy5vYmplY3QsXG5cbiAgICAvKipcbiAgICAgKiBIaWRlcyB0aGUgbWFpbiBkaXNwbGF5IG5hbWVcbiAgICAgKi9cbiAgICBoaWRlTmFtZTogUHJvcFR5cGVzLmJvb2wsXG5cbiAgICBjbGFzc05hbWU6IFByb3BUeXBlcy5zdHJpbmcsXG4gICAgZGlzcGxheU5hbWU6IFByb3BUeXBlcy5ub2RlLFxuICAgIGRlc2NyaXB0aW9uOiBQcm9wVHlwZXMubm9kZSxcbiAgICBhdmF0YXJDbGFzc05hbWU6IFByb3BUeXBlcy5vbmVPZlR5cGUoW1Byb3BUeXBlcy5zdHJpbmcsIFByb3BUeXBlcy5vYmplY3RdKSxcbiAgfTtcblxuICBzdGF0aWMgZGVmYXVsdFByb3BzID0ge1xuICAgIGF2YXRhclByb3BzOiB7fSxcbiAgICBhdmF0YXJTaXplOiAyNCxcbiAgICBoaWRlQXZhdGFyOiBmYWxzZSxcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgY29uc3Qge1xuICAgICAgY2xhc3NOYW1lLFxuICAgICAgaGlkZUF2YXRhcixcbiAgICAgIGhpZGVOYW1lLFxuICAgICAgYXZhdGFyU2l6ZSxcbiAgICAgIGF2YXRhckNsYXNzTmFtZSxcbiAgICAgIGRpc3BsYXlOYW1lLFxuICAgICAgZGVzY3JpcHRpb24sXG4gICAgICBhdmF0YXJQcm9wcyxcbiAgICAgIHRlYW0sXG4gICAgICBvcmdhbml6YXRpb24sXG4gICAgICBwcm9qZWN0LFxuICAgIH0gPSB0aGlzLnByb3BzO1xuXG4gICAgY29uc3QgZGF0YSA9IHtcbiAgICAgIHRlYW0sXG4gICAgICBvcmdhbml6YXRpb24sXG4gICAgICBwcm9qZWN0LFxuICAgIH07XG5cbiAgICByZXR1cm4gKFxuICAgICAgPEJhc2VCYWRnZVdyYXBwZXIgY2xhc3NOYW1lPXtjbGFzc05hbWV9PlxuICAgICAgICB7IWhpZGVBdmF0YXIgJiYgKFxuICAgICAgICAgIDxTdHlsZWRBdmF0YXJcbiAgICAgICAgICAgIGNzcz17YXZhdGFyQ2xhc3NOYW1lfVxuICAgICAgICAgICAgc2l6ZT17YXZhdGFyU2l6ZX1cbiAgICAgICAgICAgIGhpZGVOYW1lPXtoaWRlTmFtZX1cbiAgICAgICAgICAgIHsuLi5hdmF0YXJQcm9wcyB8fCB7fX1cbiAgICAgICAgICAgIHsuLi5kYXRhfVxuICAgICAgICAgIC8+XG4gICAgICAgICl9XG5cbiAgICAgICAgPERpc3BsYXlOYW1lQW5kRGVzY3JpcHRpb24+XG4gICAgICAgICAgeyFoaWRlTmFtZSAmJiAoXG4gICAgICAgICAgICA8RGlzcGxheU5hbWUgZGF0YS10ZXN0LWlkPVwiYmFkZ2UtZGlzcGxheS1uYW1lXCI+e2Rpc3BsYXlOYW1lfTwvRGlzcGxheU5hbWU+XG4gICAgICAgICAgKX1cbiAgICAgICAgICB7ISFkZXNjcmlwdGlvbiAmJiA8RGVzY3JpcHRpb24+e2Rlc2NyaXB0aW9ufTwvRGVzY3JpcHRpb24+fVxuICAgICAgICA8L0Rpc3BsYXlOYW1lQW5kRGVzY3JpcHRpb24+XG4gICAgICA8L0Jhc2VCYWRnZVdyYXBwZXI+XG4gICAgKTtcbiAgfVxufVxuXG5jb25zdCBCYXNlQmFkZ2VXcmFwcGVyID0gc3R5bGVkKCdkaXYnKWBcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbmA7XG5cbmV4cG9ydCBkZWZhdWx0IEJhc2VCYWRnZTtcblxuY29uc3QgU3R5bGVkQXZhdGFyID0gc3R5bGVkKEF2YXRhcilgXG4gIG1hcmdpbi1yaWdodDogJHtwID0+IChwLmhpZGVOYW1lID8gMCA6IHNwYWNlKDEpKX07XG4gIGZsZXgtc2hyaW5rOiAwO1xuYDtcblxuY29uc3QgRGlzcGxheU5hbWVBbmREZXNjcmlwdGlvbiA9IHN0eWxlZCgnZGl2JylgXG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGxpbmUtaGVpZ2h0OiAxO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuYDtcblxuY29uc3QgRGlzcGxheU5hbWUgPSBzdHlsZWQoJ3NwYW4nKWBcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgdGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7XG4gIGxpbmUtaGVpZ2h0OiAxLjI7XG5gO1xuXG5jb25zdCBEZXNjcmlwdGlvbiA9IHN0eWxlZCgnZGl2JylgXG4gIGZvbnQtc2l6ZTogMC44NzVlbTtcbiAgbWFyZ2luLXRvcDogJHtzcGFjZSgwLjI1KX07XG4gIGNvbG9yOiAke3AgPT4gcC50aGVtZS5ncmF5Mn07XG4gIGxpbmUtaGVpZ2h0OiAxNHB4O1xuICAke292ZXJmbG93RWxsaXBzaXN9O1xuYDtcbiJdfQ== */",
+                                                        ],
+                                                        "defaultProps": Object {
+                                                          "hasTooltip": false,
+                                                        },
+                                                        "displayName": "StyledAvatar",
+                                                        "render": [Function],
+                                                        "withComponent": [Function],
+                                                      }
+                                                    }
                                                     hideName={true}
                                                     project={
                                                       Object {
@@ -1378,8 +1396,8 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                                     }
                                                     size={14}
                                                   >
-                                                    <Avatar
-                                                      className="css-f5iyic-StyledAvatar e165dl3i1"
+                                                    <StyledAvatar
+                                                      className="css-0"
                                                       hasTooltip={false}
                                                       hideName={true}
                                                       project={
@@ -1391,8 +1409,8 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                                       }
                                                       size={14}
                                                     >
-                                                      <ProjectAvatar
-                                                        className="css-f5iyic-StyledAvatar e165dl3i1"
+                                                      <Avatar
+                                                        className="css-7c3lwm-StyledAvatar e165dl3i1"
                                                         hasTooltip={false}
                                                         hideName={true}
                                                         project={
@@ -1404,68 +1422,82 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                                         }
                                                         size={14}
                                                       >
-                                                        <PlatformList
-                                                          className="css-f5iyic-StyledAvatar e165dl3i1"
-                                                          consistentWidth={false}
-                                                          direction="right"
+                                                        <ProjectAvatar
+                                                          className="css-7c3lwm-StyledAvatar e165dl3i1"
                                                           hasTooltip={false}
                                                           hideName={true}
-                                                          max={1}
-                                                          platforms={Array []}
+                                                          project={
+                                                            Object {
+                                                              "id": "123",
+                                                              "name": "Internal",
+                                                              "slug": "project-slug",
+                                                            }
+                                                          }
                                                           size={14}
                                                         >
-                                                          <PlatformIcons
-                                                            className="css-f5iyic-StyledAvatar e165dl3i1"
+                                                          <PlatformList
+                                                            className="css-7c3lwm-StyledAvatar e165dl3i1"
                                                             consistentWidth={false}
                                                             direction="right"
+                                                            hasTooltip={false}
+                                                            hideName={true}
                                                             max={1}
+                                                            platforms={Array []}
                                                             size={14}
                                                           >
-                                                            <div
-                                                              className="e165dl3i1 css-7hp7lr-PlatformIcons-StyledAvatar ezvce7z0"
+                                                            <PlatformIcons
+                                                              className="css-7c3lwm-StyledAvatar e165dl3i1"
+                                                              consistentWidth={false}
                                                               direction="right"
                                                               max={1}
                                                               size={14}
                                                             >
-                                                              <StyledPlatformIcon
-                                                                platform="default"
+                                                              <div
+                                                                className="e165dl3i1 css-dyodzz-PlatformIcons-StyledAvatar ezvce7z0"
+                                                                direction="right"
+                                                                max={1}
                                                                 size={14}
                                                               >
-                                                                <Component
-                                                                  className="css-15yyc0n-StyledPlatformIcon ezvce7z1"
+                                                                <StyledPlatformIcon
                                                                   platform="default"
                                                                   size={14}
                                                                 >
-                                                                  <Platformicon
-                                                                    className="css-15yyc0n-StyledPlatformIcon ezvce7z1"
+                                                                  <Component
+                                                                    className="css-7okses-StyledPlatformIcon ezvce7z1"
                                                                     platform="default"
-                                                                    size="14px"
+                                                                    size={14}
                                                                   >
-                                                                    <img
-                                                                      className="css-15yyc0n-StyledPlatformIcon ezvce7z1"
-                                                                      height="14px"
-                                                                      src={
-                                                                        Object {
-                                                                          "default": Object {
-                                                                            "id": "test",
-                                                                            "viewBox": Object {},
-                                                                          },
+                                                                    <Platformicon
+                                                                      className="css-7okses-StyledPlatformIcon ezvce7z1"
+                                                                      platform="default"
+                                                                      size="14px"
+                                                                    >
+                                                                      <img
+                                                                        className="css-7okses-StyledPlatformIcon ezvce7z1"
+                                                                        height="14px"
+                                                                        src={
+                                                                          Object {
+                                                                            "default": Object {
+                                                                              "id": "test",
+                                                                              "viewBox": Object {},
+                                                                            },
+                                                                          }
                                                                         }
-                                                                      }
-                                                                      width="14px"
-                                                                    />
-                                                                  </Platformicon>
-                                                                </Component>
-                                                              </StyledPlatformIcon>
-                                                            </div>
-                                                          </PlatformIcons>
-                                                        </PlatformList>
-                                                      </ProjectAvatar>
-                                                    </Avatar>
-                                                  </StyledAvatar>
+                                                                        width="14px"
+                                                                      />
+                                                                    </Platformicon>
+                                                                  </Component>
+                                                                </StyledPlatformIcon>
+                                                              </div>
+                                                            </PlatformIcons>
+                                                          </PlatformList>
+                                                        </ProjectAvatar>
+                                                      </Avatar>
+                                                    </StyledAvatar>
+                                                  </EmotionCssPropInternal>
                                                   <DisplayNameAndDescription>
                                                     <div
-                                                      className="css-1yzfvrt-DisplayNameAndDescription e165dl3i2"
+                                                      className="css-1d2tk0c-DisplayNameAndDescription e165dl3i2"
                                                     />
                                                   </DisplayNameAndDescription>
                                                 </div>
@@ -1476,10 +1508,10 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                             avatar={true}
                                           >
                                             <AutoSelectText
-                                              className="css-1m1w4wi-StyledAutoSelectText ebuncw01"
+                                              className="css-xnqjkz-StyledAutoSelectText ebuncw01"
                                             >
                                               <div
-                                                className="auto-select-text css-1m1w4wi-StyledAutoSelectText ebuncw01"
+                                                className="auto-select-text css-xnqjkz-StyledAutoSelectText ebuncw01"
                                                 onClick={[Function]}
                                               >
                                                 <span>
@@ -1497,38 +1529,60 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                     lastSeen={null}
                                   >
                                     <Times
-                                      className="css-fmy35b-StyledTimes eec9orn1"
+                                      className="css-2hucfb-StyledTimes eec9orn1"
                                       firstSeen="2017-07-10T18:32:43Z"
                                       lastSeen={null}
                                     >
                                       <Container>
                                         <div
-                                          className="css-46qufz-Container e1f1on0q0"
+                                          className="css-1lz86t0-Container e1f1on0q0"
                                         >
-                                          <div
-                                            className="css-77t6iv"
+                                          <EmotionCssPropInternal
+                                            __EMOTION_LABEL_PLEASE_DO_NOT_USE__="Times"
+                                            __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                                            css={
+                                              Object {
+                                                "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRpbWVzLmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtQmdCIiwiZmlsZSI6InRpbWVzLmpzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7Y3NzfSBmcm9tICdAZW1vdGlvbi9jb3JlJztcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5pbXBvcnQgUHJvcFR5cGVzIGZyb20gJ3Byb3AtdHlwZXMnO1xuXG5pbXBvcnQge3R9IGZyb20gJ2FwcC9sb2NhbGUnO1xuaW1wb3J0IElubGluZVN2ZyBmcm9tICdhcHAvY29tcG9uZW50cy9pbmxpbmVTdmcnO1xuaW1wb3J0IFRpbWVTaW5jZSBmcm9tICdhcHAvY29tcG9uZW50cy90aW1lU2luY2UnO1xuaW1wb3J0IG92ZXJmbG93RWxsaXBzaXMgZnJvbSAnYXBwL3N0eWxlcy9vdmVyZmxvd0VsbGlwc2lzJztcblxuLyoqXG4gKiBSZW5kZXJzIHRoZSBmaXJzdCAmIGxhc3Qgc2VlbiB0aW1lcyBmb3IgYSBncm91cCBvciBldmVudCB3aXRoXG4gKiBhIGNsb2NrIGljb24uXG4gKi9cbmNvbnN0IFRpbWVzID0gcHJvcHMgPT4ge1xuICBjb25zdCB7bGFzdFNlZW4sIGZpcnN0U2Vlbn0gPSBwcm9wcztcbiAgcmV0dXJuIChcbiAgICA8Q29udGFpbmVyPlxuICAgICAgPGRpdlxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke292ZXJmbG93RWxsaXBzaXN9XG4gICAgICAgIGB9XG4gICAgICA+XG4gICAgICAgIHtsYXN0U2VlbiAmJiAoXG4gICAgICAgICAgPFJlYWN0LkZyYWdtZW50PlxuICAgICAgICAgICAgPEdyb3VwVGltZUljb24gc3JjPVwiaWNvbi1jbG9jay1zbVwiIC8+XG4gICAgICAgICAgICA8VGltZVNpbmNlIGRhdGU9e2xhc3RTZWVufSBzdWZmaXg9e3QoJ2FnbycpfSAvPlxuICAgICAgICAgIDwvUmVhY3QuRnJhZ21lbnQ+XG4gICAgICAgICl9XG4gICAgICAgIHtmaXJzdFNlZW4gJiYgbGFzdFNlZW4gJiYgKFxuICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImhpZGRlbi14cyBoaWRkZW4tc21cIj4mbmJzcDvigJQmbmJzcDs8L3NwYW4+XG4gICAgICAgICl9XG4gICAgICAgIHtmaXJzdFNlZW4gJiYgKFxuICAgICAgICAgIDxUaW1lU2luY2UgZGF0ZT17Zmlyc3RTZWVufSBzdWZmaXg9e3QoJ29sZCcpfSBjbGFzc05hbWU9XCJoaWRkZW4teHMgaGlkZGVuLXNtXCIgLz5cbiAgICAgICAgKX1cbiAgICAgIDwvZGl2PlxuICAgIDwvQ29udGFpbmVyPlxuICApO1xufTtcblRpbWVzLnByb3BUeXBlcyA9IHtcbiAgbGFzdFNlZW46IFByb3BUeXBlcy5zdHJpbmcsXG4gIGZpcnN0U2VlbjogUHJvcFR5cGVzLnN0cmluZyxcbn07XG5cbmNvbnN0IENvbnRhaW5lciA9IHN0eWxlZCgnZGl2JylgXG4gIGZsZXgtc2hyaW5rOiAxO1xuICBtaW4td2lkdGg6IDA7IC8qIGZsZXgtaGFjayBmb3Igb3ZlcmZsb3ctZWxsaXBzaXNlZCBjaGlsZHJlbiAqL1xuYDtcblxuY29uc3QgR3JvdXBUaW1lSWNvbiA9IHN0eWxlZChJbmxpbmVTdmcpYFxuICAvKiB0aGlzIGlzIHNvbGVseSBmb3Igb3B0aWNzLCBzaW5jZSBUaW1lU2luY2UgYWx3YXlzIGJlZ2luc1xuICB3aXRoIGEgbnVtYmVyLCBhbmQgbnVtYmVycyBkbyBub3QgaGF2ZSBkZXNjZW5kZXJzICovXG4gIGZvbnQtc2l6ZTogMTFweDtcbiAgbWFyZ2luLXJpZ2h0OiA0cHg7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBUaW1lcztcbiJdfQ== */",
+                                                "name": "1ggv3lw-Times",
+                                                "next": undefined,
+                                                "styles": "
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+;label:Times;",
+                                                "toString": [Function],
+                                              }
+                                            }
                                           >
-                                            <TimeSince
-                                              className="hidden-xs hidden-sm"
-                                              date="2017-07-10T18:32:43Z"
-                                              suffix="old"
+                                            <div
+                                              className="css-1ggv3lw-Times"
                                             >
-                                              <time
+                                              <TimeSince
                                                 className="hidden-xs hidden-sm"
-                                                dateTime="2017-07-10T18:32:43.000Z"
-                                                title="July 10, 2017 6:32 PM UTC"
+                                                date="2017-07-10T18:32:43Z"
+                                                suffix="old"
                                               >
-                                                3 months old
-                                              </time>
-                                            </TimeSince>
-                                          </div>
+                                                <time
+                                                  className="hidden-xs hidden-sm"
+                                                  date="2017-07-10T18:32:43Z"
+                                                  dateTime="2017-07-10T18:32:43.000Z"
+                                                  suffix="old"
+                                                  title="July 10, 2017 6:32 PM UTC"
+                                                >
+                                                  3 months old
+                                                </time>
+                                              </TimeSince>
+                                            </div>
+                                          </EmotionCssPropInternal>
                                         </div>
                                       </Container>
                                     </Times>
                                   </StyledTimes>
                                   <LoggerAnnotation>
                                     <span
-                                      className="css-1qmgstz-EventAnnotation-AnnotationNoMargin-LoggerAnnotation eec9orn6"
+                                      className="css-1fjmum4-EventAnnotation-AnnotationNoMargin-LoggerAnnotation eec9orn6"
                                     >
                                       <Link
                                         onlyActiveOnIndex={false}
@@ -1630,7 +1684,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                 vertical={true}
                               >
                                 <ScoreBar
-                                  className="css-omtyju-StyledScoreBar eecxaw40"
+                                  className="css-19m1jt3-StyledScoreBar eecxaw40"
                                   palette={
                                     Array [
                                       "#ec5e44",
@@ -1646,7 +1700,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                   vertical={true}
                                 >
                                   <div
-                                    className="css-omtyju-StyledScoreBar eecxaw40"
+                                    className="css-19m1jt3-StyledScoreBar eecxaw40"
                                   >
                                     <Bar
                                       color="#98b480"
@@ -1656,7 +1710,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                       vertical={true}
                                     >
                                       <div
-                                        className="css-1jrlewc-Bar eecxaw41"
+                                        className="css-1gui0xz-Bar eecxaw41"
                                         color="#98b480"
                                         size={40}
                                       />
@@ -1669,7 +1723,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                       vertical={true}
                                     >
                                       <div
-                                        className="css-1jrlewc-Bar eecxaw41"
+                                        className="css-1gui0xz-Bar eecxaw41"
                                         color="#98b480"
                                         size={40}
                                       />
@@ -1682,7 +1736,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                       vertical={true}
                                     >
                                       <div
-                                        className="css-1jrlewc-Bar eecxaw41"
+                                        className="css-1gui0xz-Bar eecxaw41"
                                         color="#98b480"
                                         size={40}
                                       />
@@ -1695,7 +1749,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                       vertical={true}
                                     >
                                       <div
-                                        className="css-1jrlewc-Bar eecxaw41"
+                                        className="css-1gui0xz-Bar eecxaw41"
                                         color="#98b480"
                                         size={40}
                                       />
@@ -1708,7 +1762,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                       vertical={true}
                                     >
                                       <div
-                                        className="css-15vxee-Bar eecxaw41"
+                                        className="css-3fvo9r-Bar eecxaw41"
                                         size={40}
                                       />
                                     </Bar>
@@ -1756,7 +1810,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                 vertical={true}
                               >
                                 <ScoreBar
-                                  className="css-omtyju-StyledScoreBar eecxaw40"
+                                  className="css-19m1jt3-StyledScoreBar eecxaw40"
                                   palette={
                                     Array [
                                       "#ec5e44",
@@ -1772,7 +1826,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                   vertical={true}
                                 >
                                   <div
-                                    className="css-omtyju-StyledScoreBar eecxaw40"
+                                    className="css-19m1jt3-StyledScoreBar eecxaw40"
                                   >
                                     <Bar
                                       empty={true}
@@ -1782,7 +1836,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                       vertical={true}
                                     >
                                       <div
-                                        className="css-15vxee-Bar eecxaw41"
+                                        className="css-3fvo9r-Bar eecxaw41"
                                         size={40}
                                       />
                                     </Bar>
@@ -1794,7 +1848,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                       vertical={true}
                                     >
                                       <div
-                                        className="css-15vxee-Bar eecxaw41"
+                                        className="css-3fvo9r-Bar eecxaw41"
                                         size={40}
                                       />
                                     </Bar>
@@ -1806,7 +1860,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                       vertical={true}
                                     >
                                       <div
-                                        className="css-15vxee-Bar eecxaw41"
+                                        className="css-3fvo9r-Bar eecxaw41"
                                         size={40}
                                       />
                                     </Bar>
@@ -1818,7 +1872,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                       vertical={true}
                                     >
                                       <div
-                                        className="css-15vxee-Bar eecxaw41"
+                                        className="css-3fvo9r-Bar eecxaw41"
                                         size={40}
                                       />
                                     </Bar>
@@ -1830,7 +1884,7 @@ exports[`Issues Similar View renders with mocked data 1`] = `
                                       vertical={true}
                                     >
                                       <div
-                                        className="css-15vxee-Bar eecxaw41"
+                                        className="css-3fvo9r-Bar eecxaw41"
                                         size={40}
                                       />
                                     </Bar>
@@ -1860,10 +1914,14 @@ exports[`Issues Similar View renders with mocked data 1`] = `
             </button>
           </div>
         </div>
-        <Pagination
-          className="css-1yt0wm7-streamCss"
+        <Styled(Pagination)
           onCursor={[Function]}
-        />
+        >
+          <Pagination
+            className="css-yneqnx e1vkspke0"
+            onCursor={[Function]}
+          />
+        </Styled(Pagination)>
       </div>
     </SimilarList>
   </div>

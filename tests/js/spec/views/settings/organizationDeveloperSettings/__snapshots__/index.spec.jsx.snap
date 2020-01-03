@@ -324,7 +324,7 @@ exports[`Organization Developer Settings when no Apps exist displays empty state
                               noMargin={true}
                             >
                               <div
-                                className="css-1ni55r3-TextBlock-Description-MarginStyles e1h3yfdx0"
+                                className="css-1xokhf4-TextBlock-Description e1h3yfdx0"
                               >
                                 No public integrations have been created yet.
                               </div>
@@ -497,7 +497,7 @@ exports[`Organization Developer Settings when no Apps exist displays empty state
                               noMargin={true}
                             >
                               <div
-                                className="css-1ni55r3-TextBlock-Description-MarginStyles e1h3yfdx0"
+                                className="css-1xokhf4-TextBlock-Description e1h3yfdx0"
                               >
                                 No internal integrations have been created yet.
                               </div>

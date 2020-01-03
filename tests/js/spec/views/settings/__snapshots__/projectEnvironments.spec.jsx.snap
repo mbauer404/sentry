@@ -353,7 +353,7 @@ exports[`ProjectEnvironments render active renders empty message 1`] = `
                         noMargin={true}
                       >
                         <div
-                          className="css-1ni55r3-TextBlock-Description-MarginStyles e1h3yfdx0"
+                          className="css-1xokhf4-TextBlock-Description e1h3yfdx0"
                         >
                           You don't have any environments yet.
                         </div>
@@ -724,7 +724,7 @@ exports[`ProjectEnvironments render hidden renders empty message 1`] = `
                         noMargin={true}
                       >
                         <div
-                          className="css-1ni55r3-TextBlock-Description-MarginStyles e1h3yfdx0"
+                          className="css-1xokhf4-TextBlock-Description e1h3yfdx0"
                         >
                           You don't have any hidden environments.
                         </div>
