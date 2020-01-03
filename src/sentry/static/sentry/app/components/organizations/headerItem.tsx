@@ -19,7 +19,6 @@ type Props = {
   isOpen: boolean;
   locked: boolean;
   loading: boolean;
-  innerRef: React.Ref<HTMLDivElement>;
   onClear: () => void;
 } & React.HTMLProps<HTMLDivElement>;
 
