@@ -134,7 +134,7 @@ const FormWrapper = styled('div')`
   width: ${p => (p.hasAuthProviders ? '600px' : '490px')};
 `;
 
-const formFooterClass = css`
+const formFooterClass = `
   display: grid;
   grid-template-columns: max-content 1fr;
   grid-gap: ${space(1)};

@@ -79,6 +79,7 @@ class SidebarItem extends React.Component {
       // TODO: this won't be necessary once we remove settingsHome
       (label === 'Settings' && location.pathname.startsWith('/settings/'));
 
+    const isActive = active || isActiveRouter;
     const isTop = orientation === 'top';
     const placement = isTop ? 'bottom' : 'right';
 
@@ -86,7 +87,7 @@ class SidebarItem extends React.Component {
       <Tooltip disabled={!collapsed} title={label} placement={placement}>
         <StyledSidebarItem
           data-test-id={this.props['data-test-id']}
-          active={active || isActiveRouter}
+          active={isActive ? 'true' : undefined}
           href={href}
           to={to}
           className={className}
