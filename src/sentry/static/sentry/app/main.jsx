@@ -1,6 +1,4 @@
 import {hot} from 'react-hot-loader/root'; // This needs to come before react
-import {cache} from 'emotion';
-import {CacheProvider} from '@emotion/core';
 import React from 'react';
 import {Router, browserHistory} from 'react-router';
 
@@ -13,11 +11,7 @@ class Main extends React.Component {
   }
 
   render() {
-    return (
-      <CacheProvider value={cache}>
-        <Router history={browserHistory}>{routes()}</Router>
-      </CacheProvider>
-    );
+    return <Router history={browserHistory}>{routes()}</Router>;
   }
 }
 

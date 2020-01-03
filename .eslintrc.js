@@ -13,7 +13,7 @@ module.exports = {
   },
   rules: {
     'emotion/jsx-import': 'warn',
-    'emotion/no-vanilla': 'warn',
+    'emotion/no-vanilla': 'error',
     'emotion/import-from-emotion': 'error',
     'emotion/styled-import': 'error',
   },

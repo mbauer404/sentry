@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import classNames from 'classnames';
 import {Manager, Reference, Popper} from 'react-popper';
 import styled from '@emotion/styled';
-import {keyframes} from 'emotion';
+import {keyframes} from '@emotion/core';
 
 import {fadeIn} from 'app/styles/animations';
 import space from 'app/styles/space';
