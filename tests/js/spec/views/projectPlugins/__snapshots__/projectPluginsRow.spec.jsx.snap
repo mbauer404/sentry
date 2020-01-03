@@ -104,139 +104,156 @@ exports[`ProjectPluginRow renders 1`] = `
         requireAll={true}
       >
         <Flex
-          align="center"
+          alignItems="center"
           className="amazon-sqs"
           flex="1"
           key="amazon-sqs"
         >
-          <Base
-            align="center"
-            className="amazon-sqs css-1yrw3fm"
-            flex="1"
+          <div
+            className="amazon-sqs css-170hc5s"
           >
-            <div
-              className="amazon-sqs css-1yrw3fm"
-              is={null}
-            >
-              <PluginInfo>
-                <div
-                  className="css-sm2hu2-PluginInfo e1y7j6vq0"
+            <PluginInfo>
+              <div
+                className="css-1jrzgda-PluginInfo e1y7j6vq0"
+              >
+                <StyledPluginIcon
+                  pluginId="amazon-sqs"
+                  size={48}
                 >
-                  <StyledPluginIcon
-                    pluginId="amazon-sqs"
+                  <div
+                    className="css-1l0dgzp-PluginIcon-StyledPluginIcon e1y7j6vq2"
                     size={48}
+                  />
+                </StyledPluginIcon>
+                <Flex
+                  flexDirection="column"
+                  justifyContent="center"
+                >
+                  <div
+                    className="css-rv53dj"
                   >
-                    <div
-                      className="css-3pocio-PluginIcon-StyledPluginIcon e1y7j6vq2"
-                      size={48}
-                    />
-                  </StyledPluginIcon>
-                  <Flex
-                    direction="column"
-                    justify="center"
-                  >
-                    <Base
-                      className="css-11zjqd3"
-                      direction="column"
-                      justify="center"
-                    >
+                    <PluginName>
                       <div
-                        className="css-11zjqd3"
-                        is={null}
+                        className="css-1rrljgj-PluginName e1y7j6vq1"
                       >
-                        <PluginName>
-                          <div
-                            className="css-36lssg-PluginName e1y7j6vq1"
+                        Amazon SQS 
+                        <Version>
+                          <span
+                            className="css-1czymow-Version e1y7j6vq3"
                           >
-                            Amazon SQS 
-                            <Version>
-                              <span
-                                className="css-1det7j8-Version e1y7j6vq3"
-                              >
-                                v8.23.0.dev0
-                              </span>
-                            </Version>
-                          </div>
-                        </PluginName>
-                        <div>
-                          <ForwardRef
-                            className="css-8vm1xp-grayText"
+                            v8.23.0.dev0
+                          </span>
+                        </Version>
+                      </div>
+                    </PluginName>
+                    <div>
+                      <EmotionCssPropInternal
+                        __EMOTION_TYPE_PLEASE_DO_NOT_USE__={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "render": [Function],
+                          }
+                        }
+                        css={
+                          Object {
+                            "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RQbHVnaW5Sb3cuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdCb0IiLCJmaWxlIjoicHJvamVjdFBsdWdpblJvdy5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge2Nzc30gZnJvbSAnQGVtb3Rpb24vY29yZSc7XG5pbXBvcnQge0ZsZXh9IGZyb20gJ0ByZWJhc3MvZ3JpZC9lbW90aW9uJztcbmltcG9ydCB7TGlua30gZnJvbSAncmVhY3Qtcm91dGVyJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHN0eWxlZCBmcm9tICdAZW1vdGlvbi9zdHlsZWQnO1xuXG5pbXBvcnQge3R9IGZyb20gJ2FwcC9sb2NhbGUnO1xuaW1wb3J0IEV4dGVybmFsTGluayBmcm9tICdhcHAvY29tcG9uZW50cy9saW5rcy9leHRlcm5hbExpbmsnO1xuaW1wb3J0IEFjY2VzcyBmcm9tICdhcHAvY29tcG9uZW50cy9hY2wvYWNjZXNzJztcbmltcG9ydCBQbHVnaW5JY29uIGZyb20gJ2FwcC9wbHVnaW5zL2NvbXBvbmVudHMvcGx1Z2luSWNvbic7XG5pbXBvcnQgU2VudHJ5VHlwZXMgZnJvbSAnYXBwL3NlbnRyeVR5cGVzJztcbmltcG9ydCBTd2l0Y2ggZnJvbSAnYXBwL2NvbXBvbmVudHMvc3dpdGNoJztcbmltcG9ydCBnZXREeW5hbWljVGV4dCBmcm9tICdhcHAvdXRpbHMvZ2V0RHluYW1pY1RleHQnO1xuaW1wb3J0IHJlY3JlYXRlUm91dGUgZnJvbSAnYXBwL3V0aWxzL3JlY3JlYXRlUm91dGUnO1xuXG5jb25zdCBncmF5VGV4dCA9IGNzc2BcbiAgY29sb3I6ICM5NzliYTA7XG5gO1xuXG5jbGFzcyBQcm9qZWN0UGx1Z2luUm93IGV4dGVuZHMgUmVhY3QuUHVyZUNvbXBvbmVudCB7XG4gIHN0YXRpYyBwcm9wVHlwZXMgPSB7XG4gICAgLi4uU2VudHJ5VHlwZXMuUGx1Z2luLFxuICAgIG9uQ2hhbmdlOiBQcm9wVHlwZXMuZnVuYyxcbiAgfTtcblxuICBoYW5kbGVDaGFuZ2UgPSAoKSA9PiB7XG4gICAgY29uc3Qge29uQ2hhbmdlLCBpZCwgZW5hYmxlZH0gPSB0aGlzLnByb3BzO1xuICAgIG9uQ2hhbmdlKGlkLCAhZW5hYmxlZCk7XG4gIH07XG5cbiAgcmVuZGVyKCkge1xuICAgIGNvbnN0IHtcbiAgICAgIGlkLFxuICAgICAgbmFtZSxcbiAgICAgIHNsdWcsXG4gICAgICB2ZXJzaW9uLFxuICAgICAgYXV0aG9yLFxuICAgICAgaGFzQ29uZmlndXJhdGlvbixcbiAgICAgIGVuYWJsZWQsXG4gICAgICBjYW5EaXNhYmxlLFxuICAgIH0gPSB0aGlzLnByb3BzO1xuXG4gICAgY29uc3QgY29uZmlndXJlVXJsID0gcmVjcmVhdGVSb3V0ZShpZCwgdGhpcy5wcm9wcyk7XG4gICAgcmV0dXJuIChcbiAgICAgIDxBY2Nlc3MgYWNjZXNzPXtbJ3Byb2plY3Q6d3JpdGUnXX0+XG4gICAgICAgIHsoe2hhc0FjY2Vzc30pID0+IHtcbiAgICAgICAgICBjb25zdCBMaW5rT3JTcGFuID0gaGFzQWNjZXNzID8gTGluayA6ICdzcGFuJztcblxuICAgICAgICAgIHJldHVybiAoXG4gICAgICAgICAgICA8RmxleCBrZXk9e2lkfSBjbGFzc05hbWU9e3NsdWd9IGZsZXg9XCIxXCIgYWxpZ25JdGVtcz1cImNlbnRlclwiPlxuICAgICAgICAgICAgICA8UGx1Z2luSW5mbz5cbiAgICAgICAgICAgICAgICA8U3R5bGVkUGx1Z2luSWNvbiBzaXplPXs0OH0gcGx1Z2luSWQ9e2lkfSAvPlxuICAgICAgICAgICAgICAgIDxGbGV4IGp1c3RpZnlDb250ZW50PVwiY2VudGVyXCIgZmxleERpcmVjdGlvbj1cImNvbHVtblwiPlxuICAgICAgICAgICAgICAgICAgPFBsdWdpbk5hbWU+XG4gICAgICAgICAgICAgICAgICAgIHtgJHtuYW1lfSBgfVxuICAgICAgICAgICAgICAgICAgICB7Z2V0RHluYW1pY1RleHQoe1xuICAgICAgICAgICAgICAgICAgICAgIHZhbHVlOiAoXG4gICAgICAgICAgICAgICAgICAgICAgICA8VmVyc2lvbj57dmVyc2lvbiA/IGB2JHt2ZXJzaW9ufWAgOiA8ZW0+e3QoJ24vYScpfTwvZW0+fTwvVmVyc2lvbj5cbiAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgIGZpeGVkOiA8VmVyc2lvbj52MTA8L1ZlcnNpb24+LFxuICAgICAgICAgICAgICAgICAgICB9KX1cbiAgICAgICAgICAgICAgICAgIDwvUGx1Z2luTmFtZT5cbiAgICAgICAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgICAgIHthdXRob3IgJiYgKFxuICAgICAgICAgICAgICAgICAgICAgIDxFeHRlcm5hbExpbmsgY3NzPXtncmF5VGV4dH0gaHJlZj17YXV0aG9yLnVybH0+XG4gICAgICAgICAgICAgICAgICAgICAgICB7YXV0aG9yLm5hbWV9XG4gICAgICAgICAgICAgICAgICAgICAgPC9FeHRlcm5hbExpbms+XG4gICAgICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICAgICAgICAgIHtoYXNDb25maWd1cmF0aW9uICYmIChcbiAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgICAgIHsnICd9XG4gICAgICAgICAgICAgICAgICAgICAgICAmbWlkZG90O3snICd9XG4gICAgICAgICAgICAgICAgICAgICAgICA8TGlua09yU3BhbiBjc3M9e2dyYXlUZXh0fSB0bz17Y29uZmlndXJlVXJsfT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAge3QoJ0NvbmZpZ3VyZSBwbHVnaW4nKX1cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvTGlua09yU3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8L0ZsZXg+XG4gICAgICAgICAgICAgIDwvUGx1Z2luSW5mbz5cbiAgICAgICAgICAgICAgPFN3aXRjaFxuICAgICAgICAgICAgICAgIHNpemU9XCJsZ1wiXG4gICAgICAgICAgICAgICAgaXNEaXNhYmxlZD17IWhhc0FjY2VzcyB8fCAhY2FuRGlzYWJsZX1cbiAgICAgICAgICAgICAgICBpc0FjdGl2ZT17ZW5hYmxlZH1cbiAgICAgICAgICAgICAgICB0b2dnbGU9e3RoaXMuaGFuZGxlQ2hhbmdlfVxuICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgPC9GbGV4PlxuICAgICAgICAgICk7XG4gICAgICAgIH19XG4gICAgICA8L0FjY2Vzcz5cbiAgICApO1xuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IFByb2plY3RQbHVnaW5Sb3c7XG5cbi8vIEluY2x1ZGVzIGljb24sIG5hbWUsIHZlcnNpb24sIGNvbmZpZ3VyZSBsaW5rXG5jb25zdCBQbHVnaW5JbmZvID0gc3R5bGVkKCdkaXYnKWBcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleDogMTtcbiAgbGluZS1oZWlnaHQ6IDI0cHg7XG5gO1xuXG5jb25zdCBQbHVnaW5OYW1lID0gc3R5bGVkKCdkaXYnKWBcbiAgZm9udC1zaXplOiAxNnB4O1xuYDtcblxuY29uc3QgU3R5bGVkUGx1Z2luSWNvbiA9IHN0eWxlZChQbHVnaW5JY29uKWBcbiAgbWFyZ2luLXJpZ2h0OiAxNnB4O1xuYDtcblxuLy8gS2VlcGluZyB0aGVzZSBjb2xvcnMgdGhlIHNhbWUgZnJvbSBvbGQgaW50ZWdyYXRpb25zIHBhZ2VcbmNvbnN0IFZlcnNpb24gPSBzdHlsZWQoJ3NwYW4nKWBcbiAgY29sb3I6ICNiYWJlYzI7XG5gO1xuIl19 */",
+                            "name": "1nx57m5-grayText",
+                            "styles": "color:#979ba0;;label:grayText;",
+                            "toString": [Function],
+                          }
+                        }
+                        href="https://github.com/getsentry/sentry"
+                      >
+                        <ForwardRef
+                          className="css-1nx57m5-grayText"
+                          href="https://github.com/getsentry/sentry"
+                        >
+                          <a
+                            className="css-1nx57m5-grayText"
                             href="https://github.com/getsentry/sentry"
+                            rel="noreferrer noopener"
+                            target="_blank"
+                          >
+                            Sentry Team
+                          </a>
+                        </ForwardRef>
+                      </EmotionCssPropInternal>
+                      <span>
+                         
+                        ·
+                         
+                        <EmotionCssPropInternal
+                          __EMOTION_TYPE_PLEASE_DO_NOT_USE__={[Function]}
+                          css={
+                            Object {
+                              "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RQbHVnaW5Sb3cuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdCb0IiLCJmaWxlIjoicHJvamVjdFBsdWdpblJvdy5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge2Nzc30gZnJvbSAnQGVtb3Rpb24vY29yZSc7XG5pbXBvcnQge0ZsZXh9IGZyb20gJ0ByZWJhc3MvZ3JpZC9lbW90aW9uJztcbmltcG9ydCB7TGlua30gZnJvbSAncmVhY3Qtcm91dGVyJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHN0eWxlZCBmcm9tICdAZW1vdGlvbi9zdHlsZWQnO1xuXG5pbXBvcnQge3R9IGZyb20gJ2FwcC9sb2NhbGUnO1xuaW1wb3J0IEV4dGVybmFsTGluayBmcm9tICdhcHAvY29tcG9uZW50cy9saW5rcy9leHRlcm5hbExpbmsnO1xuaW1wb3J0IEFjY2VzcyBmcm9tICdhcHAvY29tcG9uZW50cy9hY2wvYWNjZXNzJztcbmltcG9ydCBQbHVnaW5JY29uIGZyb20gJ2FwcC9wbHVnaW5zL2NvbXBvbmVudHMvcGx1Z2luSWNvbic7XG5pbXBvcnQgU2VudHJ5VHlwZXMgZnJvbSAnYXBwL3NlbnRyeVR5cGVzJztcbmltcG9ydCBTd2l0Y2ggZnJvbSAnYXBwL2NvbXBvbmVudHMvc3dpdGNoJztcbmltcG9ydCBnZXREeW5hbWljVGV4dCBmcm9tICdhcHAvdXRpbHMvZ2V0RHluYW1pY1RleHQnO1xuaW1wb3J0IHJlY3JlYXRlUm91dGUgZnJvbSAnYXBwL3V0aWxzL3JlY3JlYXRlUm91dGUnO1xuXG5jb25zdCBncmF5VGV4dCA9IGNzc2BcbiAgY29sb3I6ICM5NzliYTA7XG5gO1xuXG5jbGFzcyBQcm9qZWN0UGx1Z2luUm93IGV4dGVuZHMgUmVhY3QuUHVyZUNvbXBvbmVudCB7XG4gIHN0YXRpYyBwcm9wVHlwZXMgPSB7XG4gICAgLi4uU2VudHJ5VHlwZXMuUGx1Z2luLFxuICAgIG9uQ2hhbmdlOiBQcm9wVHlwZXMuZnVuYyxcbiAgfTtcblxuICBoYW5kbGVDaGFuZ2UgPSAoKSA9PiB7XG4gICAgY29uc3Qge29uQ2hhbmdlLCBpZCwgZW5hYmxlZH0gPSB0aGlzLnByb3BzO1xuICAgIG9uQ2hhbmdlKGlkLCAhZW5hYmxlZCk7XG4gIH07XG5cbiAgcmVuZGVyKCkge1xuICAgIGNvbnN0IHtcbiAgICAgIGlkLFxuICAgICAgbmFtZSxcbiAgICAgIHNsdWcsXG4gICAgICB2ZXJzaW9uLFxuICAgICAgYXV0aG9yLFxuICAgICAgaGFzQ29uZmlndXJhdGlvbixcbiAgICAgIGVuYWJsZWQsXG4gICAgICBjYW5EaXNhYmxlLFxuICAgIH0gPSB0aGlzLnByb3BzO1xuXG4gICAgY29uc3QgY29uZmlndXJlVXJsID0gcmVjcmVhdGVSb3V0ZShpZCwgdGhpcy5wcm9wcyk7XG4gICAgcmV0dXJuIChcbiAgICAgIDxBY2Nlc3MgYWNjZXNzPXtbJ3Byb2plY3Q6d3JpdGUnXX0+XG4gICAgICAgIHsoe2hhc0FjY2Vzc30pID0+IHtcbiAgICAgICAgICBjb25zdCBMaW5rT3JTcGFuID0gaGFzQWNjZXNzID8gTGluayA6ICdzcGFuJztcblxuICAgICAgICAgIHJldHVybiAoXG4gICAgICAgICAgICA8RmxleCBrZXk9e2lkfSBjbGFzc05hbWU9e3NsdWd9IGZsZXg9XCIxXCIgYWxpZ25JdGVtcz1cImNlbnRlclwiPlxuICAgICAgICAgICAgICA8UGx1Z2luSW5mbz5cbiAgICAgICAgICAgICAgICA8U3R5bGVkUGx1Z2luSWNvbiBzaXplPXs0OH0gcGx1Z2luSWQ9e2lkfSAvPlxuICAgICAgICAgICAgICAgIDxGbGV4IGp1c3RpZnlDb250ZW50PVwiY2VudGVyXCIgZmxleERpcmVjdGlvbj1cImNvbHVtblwiPlxuICAgICAgICAgICAgICAgICAgPFBsdWdpbk5hbWU+XG4gICAgICAgICAgICAgICAgICAgIHtgJHtuYW1lfSBgfVxuICAgICAgICAgICAgICAgICAgICB7Z2V0RHluYW1pY1RleHQoe1xuICAgICAgICAgICAgICAgICAgICAgIHZhbHVlOiAoXG4gICAgICAgICAgICAgICAgICAgICAgICA8VmVyc2lvbj57dmVyc2lvbiA/IGB2JHt2ZXJzaW9ufWAgOiA8ZW0+e3QoJ24vYScpfTwvZW0+fTwvVmVyc2lvbj5cbiAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgIGZpeGVkOiA8VmVyc2lvbj52MTA8L1ZlcnNpb24+LFxuICAgICAgICAgICAgICAgICAgICB9KX1cbiAgICAgICAgICAgICAgICAgIDwvUGx1Z2luTmFtZT5cbiAgICAgICAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgICAgIHthdXRob3IgJiYgKFxuICAgICAgICAgICAgICAgICAgICAgIDxFeHRlcm5hbExpbmsgY3NzPXtncmF5VGV4dH0gaHJlZj17YXV0aG9yLnVybH0+XG4gICAgICAgICAgICAgICAgICAgICAgICB7YXV0aG9yLm5hbWV9XG4gICAgICAgICAgICAgICAgICAgICAgPC9FeHRlcm5hbExpbms+XG4gICAgICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICAgICAgICAgIHtoYXNDb25maWd1cmF0aW9uICYmIChcbiAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgICAgIHsnICd9XG4gICAgICAgICAgICAgICAgICAgICAgICAmbWlkZG90O3snICd9XG4gICAgICAgICAgICAgICAgICAgICAgICA8TGlua09yU3BhbiBjc3M9e2dyYXlUZXh0fSB0bz17Y29uZmlndXJlVXJsfT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAge3QoJ0NvbmZpZ3VyZSBwbHVnaW4nKX1cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvTGlua09yU3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8L0ZsZXg+XG4gICAgICAgICAgICAgIDwvUGx1Z2luSW5mbz5cbiAgICAgICAgICAgICAgPFN3aXRjaFxuICAgICAgICAgICAgICAgIHNpemU9XCJsZ1wiXG4gICAgICAgICAgICAgICAgaXNEaXNhYmxlZD17IWhhc0FjY2VzcyB8fCAhY2FuRGlzYWJsZX1cbiAgICAgICAgICAgICAgICBpc0FjdGl2ZT17ZW5hYmxlZH1cbiAgICAgICAgICAgICAgICB0b2dnbGU9e3RoaXMuaGFuZGxlQ2hhbmdlfVxuICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgPC9GbGV4PlxuICAgICAgICAgICk7XG4gICAgICAgIH19XG4gICAgICA8L0FjY2Vzcz5cbiAgICApO1xuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IFByb2plY3RQbHVnaW5Sb3c7XG5cbi8vIEluY2x1ZGVzIGljb24sIG5hbWUsIHZlcnNpb24sIGNvbmZpZ3VyZSBsaW5rXG5jb25zdCBQbHVnaW5JbmZvID0gc3R5bGVkKCdkaXYnKWBcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleDogMTtcbiAgbGluZS1oZWlnaHQ6IDI0cHg7XG5gO1xuXG5jb25zdCBQbHVnaW5OYW1lID0gc3R5bGVkKCdkaXYnKWBcbiAgZm9udC1zaXplOiAxNnB4O1xuYDtcblxuY29uc3QgU3R5bGVkUGx1Z2luSWNvbiA9IHN0eWxlZChQbHVnaW5JY29uKWBcbiAgbWFyZ2luLXJpZ2h0OiAxNnB4O1xuYDtcblxuLy8gS2VlcGluZyB0aGVzZSBjb2xvcnMgdGhlIHNhbWUgZnJvbSBvbGQgaW50ZWdyYXRpb25zIHBhZ2VcbmNvbnN0IFZlcnNpb24gPSBzdHlsZWQoJ3NwYW4nKWBcbiAgY29sb3I6ICNiYWJlYzI7XG5gO1xuIl19 */",
+                              "name": "1nx57m5-grayText",
+                              "styles": "color:#979ba0;;label:grayText;",
+                              "toString": [Function],
+                            }
+                          }
+                          to="amazon-sqs"
+                        >
+                          <Link
+                            className="css-1nx57m5-grayText"
+                            onlyActiveOnIndex={false}
+                            style={Object {}}
+                            to="amazon-sqs"
                           >
                             <a
-                              className="css-8vm1xp-grayText"
-                              href="https://github.com/getsentry/sentry"
-                              rel="noreferrer noopener"
-                              target="_blank"
-                            >
-                              Sentry Team
-                            </a>
-                          </ForwardRef>
-                          <span>
-                             
-                            ·
-                             
-                            <Link
-                              className="css-8vm1xp-grayText"
-                              onlyActiveOnIndex={false}
+                              className="css-1nx57m5-grayText"
+                              onClick={[Function]}
                               style={Object {}}
-                              to="amazon-sqs"
                             >
-                              <a
-                                className="css-8vm1xp-grayText"
-                                onClick={[Function]}
-                                style={Object {}}
-                              >
-                                Configure plugin
-                              </a>
-                            </Link>
-                          </span>
-                        </div>
-                      </div>
-                    </Base>
-                  </Flex>
-                </div>
-              </PluginInfo>
-              <Switch
+                              Configure plugin
+                            </a>
+                          </Link>
+                        </EmotionCssPropInternal>
+                      </span>
+                    </div>
+                  </div>
+                </Flex>
+              </div>
+            </PluginInfo>
+            <Switch
+              isActive={false}
+              isDisabled={false}
+              size="lg"
+              toggle={[Function]}
+            >
+              <SwitchButton
+                aria-checked={false}
+                data-test-id="switch"
                 isActive={false}
                 isDisabled={false}
+                onClick={[Function]}
+                role="checkbox"
                 size="lg"
-                toggle={[Function]}
+                type="button"
               >
-                <SwitchButton
+                <button
                   aria-checked={false}
+                  className="css-1dy0xgk-SwitchButton ezmyi9u0"
                   data-test-id="switch"
-                  isActive={false}
-                  isDisabled={false}
                   onClick={[Function]}
                   role="checkbox"
                   size="lg"
                   type="button"
                 >
-                  <button
-                    aria-checked={false}
-                    className="css-qiticg-SwitchButton ezmyi9u0"
-                    data-test-id="switch"
-                    onClick={[Function]}
-                    role="checkbox"
+                  <Toggle
+                    isActive={false}
+                    isDisabled={false}
                     size="lg"
-                    type="button"
                   >
-                    <Toggle
-                      isActive={false}
-                      isDisabled={false}
+                    <span
+                      className="css-1oum9in-Toggle ezmyi9u1"
                       size="lg"
-                    >
-                      <span
-                        className="css-pa284f-Toggle ezmyi9u1"
-                        size="lg"
-                      />
-                    </Toggle>
-                  </button>
-                </SwitchButton>
-              </Switch>
-            </div>
-          </Base>
+                    />
+                  </Toggle>
+                </button>
+              </SwitchButton>
+            </Switch>
+          </div>
         </Flex>
       </Access>
     </withConfig(Access)>
