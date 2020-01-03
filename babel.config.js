@@ -49,7 +49,6 @@ module.exports = {
           '@emotion/babel-preset-css-prop',
           {
             autoLabel: true,
-            sourceMap: true,
           },
         ],
       ],
