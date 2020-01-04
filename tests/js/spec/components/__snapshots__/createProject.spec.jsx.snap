@@ -1245,7 +1245,7 @@ exports[`CreateProject should deal with incorrect platform name if its provided 
           </FormLabel>
           <ProjectNameInput>
             <div
-              className="css-179rmvj-ProjectNameInput e2gtsme3"
+              className="css-k54l8c-ProjectNameInput e2gtsme3"
             >
               <ProjectPlatformIcon
                 monoTone={true}
@@ -2216,7 +2216,7 @@ exports[`CreateProject should fill in platform name if its provided by url 1`] =
           </FormLabel>
           <ProjectNameInput>
             <div
-              className="css-179rmvj-ProjectNameInput e2gtsme3"
+              className="css-k54l8c-ProjectNameInput e2gtsme3"
             >
               <ProjectPlatformIcon
                 monoTone={true}
@@ -3887,7 +3887,7 @@ exports[`CreateProject should fill in project name if its empty when platform is
           </FormLabel>
           <ProjectNameInput>
             <div
-              className="css-179rmvj-ProjectNameInput e2gtsme3"
+              className="css-k54l8c-ProjectNameInput e2gtsme3"
             >
               <ProjectPlatformIcon
                 monoTone={true}
