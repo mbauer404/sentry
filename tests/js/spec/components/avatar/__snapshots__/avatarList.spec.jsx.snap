@@ -133,7 +133,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                     size={28}
                   >
                     <div
-                      className="css-if4ccu-CollapsedUsers-Circle e1mtf41h2"
+                      className="css-1xikpge-CollapsedUsers-Circle e1mtf41h2"
                       size={28}
                     >
                       <Plus>
@@ -180,7 +180,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
         }
       >
         <UserAvatar
-          className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+          className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
           gravatar={false}
           hasTooltip={true}
           size={28}
@@ -207,7 +207,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
           }
         >
           <BaseAvatar
-            className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+            className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
             gravatarId="foo@example.com"
             hasTooltip={true}
             letterId="foo@example.com"
@@ -253,7 +253,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         onMouseLeave={[Function]}
                       >
                         <StyledBaseAvatar
-                          className="avatar css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+                          className="avatar css-31pfpo-StyledAvatar-Circle e1mtf41h1"
                           loaded={true}
                           round={true}
                           style={
@@ -264,7 +264,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                           }
                         >
                           <span
-                            className="avatar e1mtf41h1 css-j6lhvm-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
+                            className="avatar e1mtf41h1 css-11cenzn-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
                             style={
                               Object {
                                 "height": "28px",
@@ -278,13 +278,13 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                               round={true}
                             >
                               <Component
-                                className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                 displayName="Foo Bar"
                                 identifier="foo@example.com"
                                 round={true}
                               >
                                 <svg
-                                  className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                  className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                   viewBox="0 0 120 120"
                                 >
                                   <rect
@@ -352,7 +352,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
         }
       >
         <UserAvatar
-          className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+          className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
           gravatar={false}
           hasTooltip={true}
           size={28}
@@ -379,7 +379,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
           }
         >
           <BaseAvatar
-            className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+            className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
             gravatarId="foo@example.com"
             hasTooltip={true}
             letterId="foo@example.com"
@@ -425,7 +425,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         onMouseLeave={[Function]}
                       >
                         <StyledBaseAvatar
-                          className="avatar css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+                          className="avatar css-31pfpo-StyledAvatar-Circle e1mtf41h1"
                           loaded={true}
                           round={true}
                           style={
@@ -436,7 +436,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                           }
                         >
                           <span
-                            className="avatar e1mtf41h1 css-j6lhvm-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
+                            className="avatar e1mtf41h1 css-11cenzn-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
                             style={
                               Object {
                                 "height": "28px",
@@ -450,13 +450,13 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                               round={true}
                             >
                               <Component
-                                className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                 displayName="Foo Bar"
                                 identifier="foo@example.com"
                                 round={true}
                               >
                                 <svg
-                                  className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                  className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                   viewBox="0 0 120 120"
                                 >
                                   <rect
@@ -524,7 +524,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
         }
       >
         <UserAvatar
-          className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+          className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
           gravatar={false}
           hasTooltip={true}
           size={28}
@@ -551,7 +551,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
           }
         >
           <BaseAvatar
-            className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+            className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
             gravatarId="foo@example.com"
             hasTooltip={true}
             letterId="foo@example.com"
@@ -597,7 +597,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         onMouseLeave={[Function]}
                       >
                         <StyledBaseAvatar
-                          className="avatar css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+                          className="avatar css-31pfpo-StyledAvatar-Circle e1mtf41h1"
                           loaded={true}
                           round={true}
                           style={
@@ -608,7 +608,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                           }
                         >
                           <span
-                            className="avatar e1mtf41h1 css-j6lhvm-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
+                            className="avatar e1mtf41h1 css-11cenzn-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
                             style={
                               Object {
                                 "height": "28px",
@@ -622,13 +622,13 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                               round={true}
                             >
                               <Component
-                                className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                 displayName="Foo Bar"
                                 identifier="foo@example.com"
                                 round={true}
                               >
                                 <svg
-                                  className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                  className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                   viewBox="0 0 120 120"
                                 >
                                   <rect
@@ -696,7 +696,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
         }
       >
         <UserAvatar
-          className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+          className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
           gravatar={false}
           hasTooltip={true}
           size={28}
@@ -723,7 +723,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
           }
         >
           <BaseAvatar
-            className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+            className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
             gravatarId="foo@example.com"
             hasTooltip={true}
             letterId="foo@example.com"
@@ -769,7 +769,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         onMouseLeave={[Function]}
                       >
                         <StyledBaseAvatar
-                          className="avatar css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+                          className="avatar css-31pfpo-StyledAvatar-Circle e1mtf41h1"
                           loaded={true}
                           round={true}
                           style={
@@ -780,7 +780,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                           }
                         >
                           <span
-                            className="avatar e1mtf41h1 css-j6lhvm-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
+                            className="avatar e1mtf41h1 css-11cenzn-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
                             style={
                               Object {
                                 "height": "28px",
@@ -794,13 +794,13 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                               round={true}
                             >
                               <Component
-                                className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                 displayName="Foo Bar"
                                 identifier="foo@example.com"
                                 round={true}
                               >
                                 <svg
-                                  className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                  className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                   viewBox="0 0 120 120"
                                 >
                                   <rect
@@ -868,7 +868,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
         }
       >
         <UserAvatar
-          className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+          className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
           gravatar={false}
           hasTooltip={true}
           size={28}
@@ -895,7 +895,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
           }
         >
           <BaseAvatar
-            className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+            className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
             gravatarId="foo@example.com"
             hasTooltip={true}
             letterId="foo@example.com"
@@ -941,7 +941,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         onMouseLeave={[Function]}
                       >
                         <StyledBaseAvatar
-                          className="avatar css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+                          className="avatar css-31pfpo-StyledAvatar-Circle e1mtf41h1"
                           loaded={true}
                           round={true}
                           style={
@@ -952,7 +952,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                           }
                         >
                           <span
-                            className="avatar e1mtf41h1 css-j6lhvm-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
+                            className="avatar e1mtf41h1 css-11cenzn-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
                             style={
                               Object {
                                 "height": "28px",
@@ -966,13 +966,13 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                               round={true}
                             >
                               <Component
-                                className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                 displayName="Foo Bar"
                                 identifier="foo@example.com"
                                 round={true}
                               >
                                 <svg
-                                  className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                  className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                   viewBox="0 0 120 120"
                                 >
                                   <rect
@@ -1092,7 +1092,7 @@ exports[`AvatarList renders with user avatars 1`] = `
         }
       >
         <UserAvatar
-          className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+          className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
           gravatar={false}
           hasTooltip={true}
           size={28}
@@ -1119,7 +1119,7 @@ exports[`AvatarList renders with user avatars 1`] = `
           }
         >
           <BaseAvatar
-            className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+            className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
             gravatarId="foo@example.com"
             hasTooltip={true}
             letterId="foo@example.com"
@@ -1165,7 +1165,7 @@ exports[`AvatarList renders with user avatars 1`] = `
                         onMouseLeave={[Function]}
                       >
                         <StyledBaseAvatar
-                          className="avatar css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+                          className="avatar css-31pfpo-StyledAvatar-Circle e1mtf41h1"
                           loaded={true}
                           round={true}
                           style={
@@ -1176,7 +1176,7 @@ exports[`AvatarList renders with user avatars 1`] = `
                           }
                         >
                           <span
-                            className="avatar e1mtf41h1 css-j6lhvm-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
+                            className="avatar e1mtf41h1 css-11cenzn-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
                             style={
                               Object {
                                 "height": "28px",
@@ -1190,13 +1190,13 @@ exports[`AvatarList renders with user avatars 1`] = `
                               round={true}
                             >
                               <Component
-                                className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                 displayName="Foo Bar"
                                 identifier="foo@example.com"
                                 round={true}
                               >
                                 <svg
-                                  className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                  className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                   viewBox="0 0 120 120"
                                 >
                                   <rect
@@ -1264,7 +1264,7 @@ exports[`AvatarList renders with user avatars 1`] = `
         }
       >
         <UserAvatar
-          className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+          className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
           gravatar={false}
           hasTooltip={true}
           size={28}
@@ -1291,7 +1291,7 @@ exports[`AvatarList renders with user avatars 1`] = `
           }
         >
           <BaseAvatar
-            className="css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+            className="css-31pfpo-StyledAvatar-Circle e1mtf41h1"
             gravatarId="foo@example.com"
             hasTooltip={true}
             letterId="foo@example.com"
@@ -1337,7 +1337,7 @@ exports[`AvatarList renders with user avatars 1`] = `
                         onMouseLeave={[Function]}
                       >
                         <StyledBaseAvatar
-                          className="avatar css-oe3t2k-StyledAvatar-Circle e1mtf41h1"
+                          className="avatar css-31pfpo-StyledAvatar-Circle e1mtf41h1"
                           loaded={true}
                           round={true}
                           style={
@@ -1348,7 +1348,7 @@ exports[`AvatarList renders with user avatars 1`] = `
                           }
                         >
                           <span
-                            className="avatar e1mtf41h1 css-j6lhvm-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
+                            className="avatar e1mtf41h1 css-11cenzn-StyledBaseAvatar-StyledAvatar-Circle e147uwb0"
                             style={
                               Object {
                                 "height": "28px",
@@ -1362,13 +1362,13 @@ exports[`AvatarList renders with user avatars 1`] = `
                               round={true}
                             >
                               <Component
-                                className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                 displayName="Foo Bar"
                                 identifier="foo@example.com"
                                 round={true}
                               >
                                 <svg
-                                  className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                  className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                   viewBox="0 0 120 120"
                                 >
                                   <rect
