@@ -12,7 +12,7 @@ module.exports = {
     jest: true,
   },
   rules: {
-    'emotion/jsx-import': 'warn',
+    'emotion/jsx-import': 'off',
     'emotion/no-vanilla': 'error',
     'emotion/import-from-emotion': 'error',
     'emotion/styled-import': 'error',

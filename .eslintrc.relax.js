@@ -5,7 +5,7 @@ module.exports = {
   extends: ['sentry-app'],
 
   rules: {
-    'emotion/jsx-import': 'warn',
+    'emotion/jsx-import': 'off',
     'emotion/no-vanilla': 'warn',
     'emotion/import-from-emotion': 'error',
     'emotion/styled-import': 'error',
