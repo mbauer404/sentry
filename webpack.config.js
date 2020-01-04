@@ -230,7 +230,7 @@ let appConfig = {
           {
             loader: 'ts-loader',
             options: {
-              transpileOnly: true,
+              transpileOnly: false,
             },
           },
         ],
@@ -322,6 +322,13 @@ let appConfig = {
   resolve: {
     alias: {
       app: path.join(staticPrefix, 'app'),
+      '@emotion/styled': path.join(staticPrefix, 'app', 'styled'),
+      '@original-emotion/styled': path.join(
+        __dirname,
+        'node_modules',
+        '@emotion',
+        'styled'
+      ),
 
       // Aliasing this for getsentry's build, otherwise `less/select2` will not be able
       // to be resolved
