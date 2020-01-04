@@ -43,7 +43,7 @@ exports[`ReleaseCommits organization release commits 1`] = `
           >
             <PanelHeader>
               <div
-                className="css-c1q7yl-PanelHeader en8g1d30"
+                className="css-nkvs3f-PanelHeader en8g1d30"
               >
                 example/repo-name
               </div>
@@ -426,7 +426,7 @@ exports[`ReleaseCommits project release commits 1`] = `
           >
             <PanelHeader>
               <div
-                className="css-c1q7yl-PanelHeader en8g1d30"
+                className="css-nkvs3f-PanelHeader en8g1d30"
               >
                 example/repo-name
               </div>

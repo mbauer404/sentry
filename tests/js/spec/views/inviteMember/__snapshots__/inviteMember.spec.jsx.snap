@@ -192,7 +192,7 @@ exports[`InviteMember should render roles when available and allowed, and handle
             >
               <PanelHeader>
                 <div
-                  className="css-1a6luik-PanelHeader en8g1d30"
+                  className="css-1es1m70-PanelHeader en8g1d30"
                 >
                   Role
                 </div>
@@ -519,7 +519,7 @@ exports[`InviteMember should render roles when available and allowed, and handle
                   hasButtons={true}
                 >
                   <div
-                    className="css-1xqctom-PanelHeader en8g1d30"
+                    className="css-yhsu7n-PanelHeader en8g1d30"
                   >
                     Team
                     <DropdownAutoComplete

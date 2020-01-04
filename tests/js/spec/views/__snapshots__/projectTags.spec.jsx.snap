@@ -208,7 +208,7 @@ exports[`ProjectTags renders 1`] = `
           >
             <PanelHeader>
               <div
-                className="css-1a6luik-PanelHeader en8g1d30"
+                className="css-1es1m70-PanelHeader en8g1d30"
               >
                 Tags
               </div>

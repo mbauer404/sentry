@@ -289,7 +289,7 @@ exports[`OrganizationApiKeysList renders 1`] = `
             disablePadding={true}
           >
             <div
-              className="css-1ykosgx-PanelHeader en8g1d30"
+              className="css-1swm9xr-PanelHeader en8g1d30"
             >
               <Flex
                 alignItems="center"

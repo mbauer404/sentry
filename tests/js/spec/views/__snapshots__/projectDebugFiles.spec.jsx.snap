@@ -91,7 +91,7 @@ exports[`ProjectDebugFiles renders 1`] = `
           hasButtons={true}
         >
           <div
-            className="css-10o6qln-PanelHeader en8g1d30"
+            className="css-8yda21-PanelHeader en8g1d30"
           >
             <Box
               width={0.375}

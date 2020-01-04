@@ -608,7 +608,7 @@ exports[`ProjectPluginDetails renders 1`] = `
                               hasButtons={true}
                             >
                               <div
-                                className="css-1xqctom-PanelHeader en8g1d30"
+                                className="css-yhsu7n-PanelHeader en8g1d30"
                               >
                                 <PluginName>
                                   <div
