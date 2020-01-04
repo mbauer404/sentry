@@ -491,7 +491,7 @@ const StatusMessage = styled('div')<{status?: 'success' | 'error'}>`
   }
 `;
 
-const modalClassName = css`
+const modalCss = css`
   padding: 50px;
 
   .modal-dialog {
@@ -502,5 +502,5 @@ const modalClassName = css`
   }
 `;
 
-export {modalClassName};
+export {modalCss};
 export default withLatestContext(withTeams(InviteMembersModal));
