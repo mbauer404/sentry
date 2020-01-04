@@ -92,12 +92,8 @@ class HeaderItem extends React.Component<Props> {
   }
 }
 
-const getColor = (p: {
-  locked: boolean;
-  isOpen: boolean;
-  hasSelected: boolean;
-  theme: any;
-}) => {
+// Infer props here because of styled/theme
+const getColor = p => {
   if (p.locked) {
     return p.theme.gray2;
   }
@@ -125,12 +121,18 @@ const Content = styled('div')`
   ${overflowEllipsis};
 `;
 
-const IconContainer = styled('span', {shouldForwardProp: isPropValid})`
+type ColorProps = {
+  locked: boolean;
+  isOpen: boolean;
+  hasSelected: boolean;
+};
+
+const IconContainer = styled('span', {shouldForwardProp: isPropValid})<ColorProps>`
   color: ${getColor};
   margin-right: ${space(1.5)};
 `;
 
-const StyledClose = styled(InlineSvg, {shouldForwardProp: isPropValid})`
+const StyledClose = styled(InlineSvg, {shouldForwardProp: isPropValid})<ColorProps>`
   color: ${getColor};
   height: ${space(1.5)};
   width: ${space(1.5)};
