@@ -43,7 +43,7 @@ exports[`ReleaseCommits organization release commits 1`] = `
           >
             <PanelHeader>
               <div
-                className="css-j2tnti-PanelHeader en8g1d30"
+                className="css-c1q7yl-PanelHeader en8g1d30"
               >
                 example/repo-name
               </div>
@@ -58,16 +58,16 @@ exports[`ReleaseCommits organization release commits 1`] = `
                 __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
                 css={
                   Object {
-                    "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRleHQudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUdZIiwiZmlsZSI6InRleHQudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtjc3N9IGZyb20gJ0BlbW90aW9uL2NvcmUnO1xuXG5jb25zdCB0ZXh0U3R5bGVzID0gKCkgPT4ge1xuICByZXR1cm4gY3NzYFxuICAgIC8qIHN0eWxlbGludC1kaXNhYmxlIG5vLWRlc2NlbmRpbmctc3BlY2lmaWNpdHkgKi9cbiAgICBoMSxcbiAgICBoMixcbiAgICBoMyxcbiAgICBoNCxcbiAgICBoNSxcbiAgICBoNixcbiAgICBwLFxuICAgIHVsLFxuICAgIG9sLFxuICAgIHRhYmxlLFxuICAgIGRsLFxuICAgIGJsb2NrcXVvdGUsXG4gICAgZm9ybSxcbiAgICBwcmUsXG4gICAgLmF1dG8tc2VsZWN0LXRleHQsXG4gICAgLnNlY3Rpb24sXG4gICAgW2NsYXNzXj0naGlnaGxpZ2h0LSddIHtcbiAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XG5cbiAgICAgICY6bGFzdC1jaGlsZCB7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDA7XG4gICAgICB9XG4gICAgfVxuXG4gICAgaDEsXG4gICAgaDIsXG4gICAgaDMsXG4gICAgaDQsXG4gICAgaDUsXG4gICAgaDYge1xuICAgICAgbGluZS1oZWlnaHQ6IDEuMjtcbiAgICB9XG5cbiAgICBwLFxuICAgIHVsLFxuICAgIG9sLFxuICAgIGJsb2NrcXVvdGUge1xuICAgICAgbGluZS1oZWlnaHQ6IDEuNTtcbiAgICB9XG5cbiAgICBoMSB7XG4gICAgICBmb250LXNpemU6IDJlbTtcbiAgICB9XG5cbiAgICBoMiB7XG4gICAgICBmb250LXNpemU6IDEuNzVlbTtcbiAgICB9XG5cbiAgICBoMyB7XG4gICAgICBmb250LXNpemU6IDEuNWVtO1xuICAgIH1cblxuICAgIGg0IHtcbiAgICAgIGZvbnQtc2l6ZTogMS4yNWVtO1xuICAgIH1cblxuICAgIGg1IHtcbiAgICAgIGZvbnQtc2l6ZTogMWVtO1xuICAgIH1cblxuICAgIHByZSB7XG4gICAgICB3b3JkLWJyZWFrOiBicmVhay1hbGw7XG4gICAgICB3aGl0ZS1zcGFjZTogcHJlLXdyYXA7XG4gICAgfVxuICAgIC8qIHN0eWxlbGludC1lbmFibGUgKi9cbiAgYDtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IHRleHRTdHlsZXM7XG4iXX0= */",
-                    "name": "7uw193-PanelBody",
+                    "map": undefined,
+                    "name": "b1rh9y-PanelBody",
                     "next": undefined,
-                    "styles": "h1,h2,h3,h4,h5,h6,p,ul,ol,table,dl,blockquote,form,pre,.auto-select-text,.section,[class^='highlight-']{margin-bottom:20px;&:last-child{margin-bottom:0;}}h1,h2,h3,h4,h5,h6{line-height:1.2;}p,ul,ol,blockquote{line-height:1.5;}h1{font-size:2em;}h2{font-size:1.75em;}h3{font-size:1.5em;}h4{font-size:1.25em;}h5{font-size:1em;}pre{word-break:break-all;white-space:pre-wrap;};;label:PanelBody;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhbmVsQm9keS5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUJNIiwiZmlsZSI6InBhbmVsQm9keS5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge2Nzc30gZnJvbSAnQGVtb3Rpb24vY29yZSc7XG5pbXBvcnQge0ZsZXh9IGZyb20gJ0ByZWJhc3MvZ3JpZC9lbW90aW9uJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5pbXBvcnQgc3BhY2UgZnJvbSAnYXBwL3N0eWxlcy9zcGFjZSc7XG5pbXBvcnQgdGV4dFN0eWxlcyBmcm9tICdhcHAvc3R5bGVzL3RleHQnO1xuXG5jb25zdCBQYW5lbEJvZHkgPSAoe2Rpc2FibGVQYWRkaW5nLCBmbGV4LCBkaXJlY3Rpb24sIC4uLnByb3BzfSkgPT4ge1xuICBjb25zdCBwYWRkaW5nID0gIWRpc2FibGVQYWRkaW5nXG4gICAgPyBjc3NgXG4gICAgICAgIHBhZGRpbmc6ICR7c3BhY2UoMil9O1xuICAgICAgYFxuICAgIDogJyc7XG4gIGNvbnN0IGZsZXhEaXJlY3Rpb24gPSBmbGV4ID8gZGlyZWN0aW9uIDogdW5kZWZpbmVkO1xuICBjb25zdCBDb21wID0gZmxleCA/IEZsZXggOiAnZGl2JztcblxuICByZXR1cm4gKFxuICAgIDxDb21wXG4gICAgICBjc3M9e1t0ZXh0U3R5bGVzKHByb3BzKSwgcGFkZGluZ119XG4gICAgICB7Li4ucHJvcHN9XG4gICAgICB7Li4uKGZsZXhEaXJlY3Rpb24gPyB7ZmxleERpcmVjdGlvbn0gOiBudWxsKX1cbiAgICAvPlxuICApO1xufTtcblxuUGFuZWxCb2R5LnByb3BUeXBlcyA9IHtcbiAgZmxleDogUHJvcFR5cGVzLmJvb2wsXG4gIGRpcmVjdGlvbjogUHJvcFR5cGVzLnN0cmluZyxcbiAgZGlzYWJsZVBhZGRpbmc6IFByb3BUeXBlcy5ib29sLFxufTtcblxuUGFuZWxCb2R5LmRlZmF1bHRQcm9wcyA9IHtcbiAgZmxleDogZmFsc2UsXG4gIGRpcmVjdGlvbjogJ2NvbHVtbicsXG4gIGRpc2FibGVQYWRkaW5nOiB0cnVlLFxufTtcblxuZXhwb3J0IGRlZmF1bHQgUGFuZWxCb2R5O1xuIl19 */",
+                    "styles": "h1,h2,h3,h4,h5,h6,p,ul,ol,table,dl,blockquote,form,pre,.auto-select-text,.section,[class^='highlight-']{margin-bottom:20px;&:last-child{margin-bottom:0;}}h1,h2,h3,h4,h5,h6{line-height:1.2;}p,ul,ol,blockquote{line-height:1.5;}h1{font-size:2em;}h2{font-size:1.75em;}h3{font-size:1.5em;}h4{font-size:1.25em;}h5{font-size:1em;}pre{word-break:break-all;white-space:pre-wrap;};;label:PanelBody;",
                     "toString": [Function],
                   }
                 }
               >
                 <div
-                  className="css-7uw193-PanelBody"
+                  className="css-b1rh9y-PanelBody"
                 >
                   <Styled(CommitRow)
                     commit={
@@ -258,13 +258,13 @@ Users now have access to useful links from the blogs and docs on Spike-protectio
                                           round={true}
                                         >
                                           <Component
-                                            className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                            className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                             displayName="Foo Bar"
                                             identifier="example@sentry.io"
                                             round={true}
                                           >
                                             <svg
-                                              className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                              className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                               viewBox="0 0 120 120"
                                             >
                                               <rect
@@ -306,14 +306,14 @@ Users now have access to useful links from the blogs and docs on Spike-protectio
                             >
                               <Message>
                                 <div
-                                  className="css-mw9uve-TextOverflow-Message eyce8w25"
+                                  className="css-11irdn4-TextOverflow-Message eyce8w25"
                                 >
                                   (improve) Add Links to Spike-Protection Email (#2408)
                                 </div>
                               </Message>
                               <Meta>
                                 <div
-                                  className="css-1sv2dlr-TextOverflow-Meta eyce8w26"
+                                  className="css-1dy4vp6-TextOverflow-Meta eyce8w26"
                                 >
                                   <span
                                     key="4"
@@ -426,7 +426,7 @@ exports[`ReleaseCommits project release commits 1`] = `
           >
             <PanelHeader>
               <div
-                className="css-j2tnti-PanelHeader en8g1d30"
+                className="css-c1q7yl-PanelHeader en8g1d30"
               >
                 example/repo-name
               </div>
@@ -441,16 +441,16 @@ exports[`ReleaseCommits project release commits 1`] = `
                 __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
                 css={
                   Object {
-                    "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRleHQudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUdZIiwiZmlsZSI6InRleHQudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtjc3N9IGZyb20gJ0BlbW90aW9uL2NvcmUnO1xuXG5jb25zdCB0ZXh0U3R5bGVzID0gKCkgPT4ge1xuICByZXR1cm4gY3NzYFxuICAgIC8qIHN0eWxlbGludC1kaXNhYmxlIG5vLWRlc2NlbmRpbmctc3BlY2lmaWNpdHkgKi9cbiAgICBoMSxcbiAgICBoMixcbiAgICBoMyxcbiAgICBoNCxcbiAgICBoNSxcbiAgICBoNixcbiAgICBwLFxuICAgIHVsLFxuICAgIG9sLFxuICAgIHRhYmxlLFxuICAgIGRsLFxuICAgIGJsb2NrcXVvdGUsXG4gICAgZm9ybSxcbiAgICBwcmUsXG4gICAgLmF1dG8tc2VsZWN0LXRleHQsXG4gICAgLnNlY3Rpb24sXG4gICAgW2NsYXNzXj0naGlnaGxpZ2h0LSddIHtcbiAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XG5cbiAgICAgICY6bGFzdC1jaGlsZCB7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDA7XG4gICAgICB9XG4gICAgfVxuXG4gICAgaDEsXG4gICAgaDIsXG4gICAgaDMsXG4gICAgaDQsXG4gICAgaDUsXG4gICAgaDYge1xuICAgICAgbGluZS1oZWlnaHQ6IDEuMjtcbiAgICB9XG5cbiAgICBwLFxuICAgIHVsLFxuICAgIG9sLFxuICAgIGJsb2NrcXVvdGUge1xuICAgICAgbGluZS1oZWlnaHQ6IDEuNTtcbiAgICB9XG5cbiAgICBoMSB7XG4gICAgICBmb250LXNpemU6IDJlbTtcbiAgICB9XG5cbiAgICBoMiB7XG4gICAgICBmb250LXNpemU6IDEuNzVlbTtcbiAgICB9XG5cbiAgICBoMyB7XG4gICAgICBmb250LXNpemU6IDEuNWVtO1xuICAgIH1cblxuICAgIGg0IHtcbiAgICAgIGZvbnQtc2l6ZTogMS4yNWVtO1xuICAgIH1cblxuICAgIGg1IHtcbiAgICAgIGZvbnQtc2l6ZTogMWVtO1xuICAgIH1cblxuICAgIHByZSB7XG4gICAgICB3b3JkLWJyZWFrOiBicmVhay1hbGw7XG4gICAgICB3aGl0ZS1zcGFjZTogcHJlLXdyYXA7XG4gICAgfVxuICAgIC8qIHN0eWxlbGludC1lbmFibGUgKi9cbiAgYDtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IHRleHRTdHlsZXM7XG4iXX0= */",
-                    "name": "7uw193-PanelBody",
+                    "map": undefined,
+                    "name": "b1rh9y-PanelBody",
                     "next": undefined,
-                    "styles": "h1,h2,h3,h4,h5,h6,p,ul,ol,table,dl,blockquote,form,pre,.auto-select-text,.section,[class^='highlight-']{margin-bottom:20px;&:last-child{margin-bottom:0;}}h1,h2,h3,h4,h5,h6{line-height:1.2;}p,ul,ol,blockquote{line-height:1.5;}h1{font-size:2em;}h2{font-size:1.75em;}h3{font-size:1.5em;}h4{font-size:1.25em;}h5{font-size:1em;}pre{word-break:break-all;white-space:pre-wrap;};;label:PanelBody;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhbmVsQm9keS5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUJNIiwiZmlsZSI6InBhbmVsQm9keS5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge2Nzc30gZnJvbSAnQGVtb3Rpb24vY29yZSc7XG5pbXBvcnQge0ZsZXh9IGZyb20gJ0ByZWJhc3MvZ3JpZC9lbW90aW9uJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5pbXBvcnQgc3BhY2UgZnJvbSAnYXBwL3N0eWxlcy9zcGFjZSc7XG5pbXBvcnQgdGV4dFN0eWxlcyBmcm9tICdhcHAvc3R5bGVzL3RleHQnO1xuXG5jb25zdCBQYW5lbEJvZHkgPSAoe2Rpc2FibGVQYWRkaW5nLCBmbGV4LCBkaXJlY3Rpb24sIC4uLnByb3BzfSkgPT4ge1xuICBjb25zdCBwYWRkaW5nID0gIWRpc2FibGVQYWRkaW5nXG4gICAgPyBjc3NgXG4gICAgICAgIHBhZGRpbmc6ICR7c3BhY2UoMil9O1xuICAgICAgYFxuICAgIDogJyc7XG4gIGNvbnN0IGZsZXhEaXJlY3Rpb24gPSBmbGV4ID8gZGlyZWN0aW9uIDogdW5kZWZpbmVkO1xuICBjb25zdCBDb21wID0gZmxleCA/IEZsZXggOiAnZGl2JztcblxuICByZXR1cm4gKFxuICAgIDxDb21wXG4gICAgICBjc3M9e1t0ZXh0U3R5bGVzKHByb3BzKSwgcGFkZGluZ119XG4gICAgICB7Li4ucHJvcHN9XG4gICAgICB7Li4uKGZsZXhEaXJlY3Rpb24gPyB7ZmxleERpcmVjdGlvbn0gOiBudWxsKX1cbiAgICAvPlxuICApO1xufTtcblxuUGFuZWxCb2R5LnByb3BUeXBlcyA9IHtcbiAgZmxleDogUHJvcFR5cGVzLmJvb2wsXG4gIGRpcmVjdGlvbjogUHJvcFR5cGVzLnN0cmluZyxcbiAgZGlzYWJsZVBhZGRpbmc6IFByb3BUeXBlcy5ib29sLFxufTtcblxuUGFuZWxCb2R5LmRlZmF1bHRQcm9wcyA9IHtcbiAgZmxleDogZmFsc2UsXG4gIGRpcmVjdGlvbjogJ2NvbHVtbicsXG4gIGRpc2FibGVQYWRkaW5nOiB0cnVlLFxufTtcblxuZXhwb3J0IGRlZmF1bHQgUGFuZWxCb2R5O1xuIl19 */",
+                    "styles": "h1,h2,h3,h4,h5,h6,p,ul,ol,table,dl,blockquote,form,pre,.auto-select-text,.section,[class^='highlight-']{margin-bottom:20px;&:last-child{margin-bottom:0;}}h1,h2,h3,h4,h5,h6{line-height:1.2;}p,ul,ol,blockquote{line-height:1.5;}h1{font-size:2em;}h2{font-size:1.75em;}h3{font-size:1.5em;}h4{font-size:1.25em;}h5{font-size:1em;}pre{word-break:break-all;white-space:pre-wrap;};;label:PanelBody;",
                     "toString": [Function],
                   }
                 }
               >
                 <div
-                  className="css-7uw193-PanelBody"
+                  className="css-b1rh9y-PanelBody"
                 >
                   <Styled(CommitRow)
                     commit={
@@ -641,13 +641,13 @@ Users now have access to useful links from the blogs and docs on Spike-protectio
                                           round={true}
                                         >
                                           <Component
-                                            className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                            className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                             displayName="Foo Bar"
                                             identifier="example@sentry.io"
                                             round={true}
                                           >
                                             <svg
-                                              className="css-z7ffmo-LetterAvatar e12lgfev0"
+                                              className="css-1oxr9oh-LetterAvatar e12lgfev0"
                                               viewBox="0 0 120 120"
                                             >
                                               <rect
@@ -689,14 +689,14 @@ Users now have access to useful links from the blogs and docs on Spike-protectio
                             >
                               <Message>
                                 <div
-                                  className="css-mw9uve-TextOverflow-Message eyce8w25"
+                                  className="css-11irdn4-TextOverflow-Message eyce8w25"
                                 >
                                   (improve) Add Links to Spike-Protection Email (#2408)
                                 </div>
                               </Message>
                               <Meta>
                                 <div
-                                  className="css-1sv2dlr-TextOverflow-Meta eyce8w26"
+                                  className="css-1dy4vp6-TextOverflow-Meta eyce8w26"
                                 >
                                   <span
                                     key="4"

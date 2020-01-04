@@ -120,7 +120,7 @@ exports[`Sentry App Installations displays all Apps owned by the Org 1`] = `
       p={2}
     >
       <div
-        className="css-pbctp-PanelItem-SentryAppItem e5fmmf40"
+        className="css-4wr54s-PanelItem-SentryAppItem e5fmmf40"
         data-test-id="sample-app"
       >
         <StyledFlex>
@@ -295,7 +295,7 @@ exports[`Sentry App Installations displays all Apps owned by the Org 1`] = `
                         <ForwardRef
                           aria-disabled={false}
                           aria-label="Install"
-                          className="btn btn-default css-zv3cf1-StyledButton edwq9my0"
+                          className="btn btn-default css-12ogwys-StyledButton edwq9my0"
                           disabled={false}
                           onClick={[Function]}
                           role="button"
@@ -304,7 +304,7 @@ exports[`Sentry App Installations displays all Apps owned by the Org 1`] = `
                           <button
                             aria-disabled={false}
                             aria-label="Install"
-                            className="btn btn-default css-zv3cf1-StyledButton edwq9my0"
+                            className="btn btn-default css-12ogwys-StyledButton edwq9my0"
                             onClick={[Function]}
                             role="button"
                             size="small"
@@ -339,12 +339,12 @@ exports[`Sentry App Installations displays all Apps owned by the Org 1`] = `
                                           src="icon-circle-add"
                                         >
                                           <ForwardRef
-                                            className="css-1p65eyx-InlineSvg-StyledInlineSvg edwq9my3"
+                                            className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
                                             size="12px"
                                             src="icon-circle-add"
                                           >
                                             <svg
-                                              className="css-1p65eyx-InlineSvg-StyledInlineSvg edwq9my3"
+                                              className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
                                               height="12px"
                                               viewBox={Object {}}
                                               width="12px"

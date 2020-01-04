@@ -245,7 +245,7 @@ exports[`ProjectCard renders 1`] = `
                                       "label:StyledAvatar;",
                                       "margin-right:",
                                       [Function],
-                                      ";flex-shrink:0;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJhc2VCYWRnZS5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBc0dtQyIsImZpbGUiOiJiYXNlQmFkZ2UuanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5cbmltcG9ydCBBdmF0YXIgZnJvbSAnYXBwL2NvbXBvbmVudHMvYXZhdGFyJztcbmltcG9ydCBzcGFjZSBmcm9tICdhcHAvc3R5bGVzL3NwYWNlJztcbmltcG9ydCBvdmVyZmxvd0VsbGlwc2lzIGZyb20gJ2FwcC9zdHlsZXMvb3ZlcmZsb3dFbGxpcHNpcyc7XG5pbXBvcnQgU2VudHJ5VHlwZXMgZnJvbSAnYXBwL3NlbnRyeVR5cGVzJztcblxuY29uc3QgQmFzaWNNb2RlbFNoYXBlID0gUHJvcFR5cGVzLnNoYXBlKHtzbHVnOiBQcm9wVHlwZXMuc3RyaW5nfSk7XG5cbmNsYXNzIEJhc2VCYWRnZSBleHRlbmRzIFJlYWN0LlB1cmVDb21wb25lbnQge1xuICBzdGF0aWMgcHJvcFR5cGVzID0ge1xuICAgIHRlYW06IFByb3BUeXBlcy5vbmVPZlR5cGUoW0Jhc2ljTW9kZWxTaGFwZSwgU2VudHJ5VHlwZXMuVGVhbV0pLFxuICAgIG9yZ2FuaXphdGlvbjogUHJvcFR5cGVzLm9uZU9mVHlwZShbQmFzaWNNb2RlbFNoYXBlLCBTZW50cnlUeXBlcy5Pcmdhbml6YXRpb25dKSxcbiAgICBwcm9qZWN0OiBQcm9wVHlwZXMub25lT2ZUeXBlKFtCYXNpY01vZGVsU2hhcGUsIFNlbnRyeVR5cGVzLlByb2plY3RdKSxcbiAgICBtZW1iZXI6IFByb3BUeXBlcy5vbmVPZlR5cGUoW0Jhc2ljTW9kZWxTaGFwZSwgU2VudHJ5VHlwZXMuTWVtYmVyXSksXG4gICAgdXNlcjogUHJvcFR5cGVzLm9uZU9mVHlwZShbQmFzaWNNb2RlbFNoYXBlLCBTZW50cnlUeXBlcy5Vc2VyXSksXG5cbiAgICAvKipcbiAgICAgKiBBdmF0YXIgc2l6ZVxuICAgICAqL1xuICAgIGF2YXRhclNpemU6IFByb3BUeXBlcy5udW1iZXIsXG5cbiAgICAvKipcbiAgICAgKiBIaWRlcyB0aGUgYXZhdGFyXG4gICAgICovXG4gICAgaGlkZUF2YXRhcjogUHJvcFR5cGVzLmJvb2wsXG5cbiAgICAvKipcbiAgICAgKiBBZGRpdGlvbmFsIHByb3BzIGZvciBBdmF0YXIgY29tcG9uZW50XG4gICAgICovXG4gICAgYXZhdGFyUHJvcHM6IFByb3BUeXBlcy5vYmplY3QsXG5cbiAgICAvKipcbiAgICAgKiBIaWRlcyB0aGUgbWFpbiBkaXNwbGF5IG5hbWVcbiAgICAgKi9cbiAgICBoaWRlTmFtZTogUHJvcFR5cGVzLmJvb2wsXG5cbiAgICBjbGFzc05hbWU6IFByb3BUeXBlcy5zdHJpbmcsXG4gICAgZGlzcGxheU5hbWU6IFByb3BUeXBlcy5ub2RlLFxuICAgIGRlc2NyaXB0aW9uOiBQcm9wVHlwZXMubm9kZSxcbiAgICBhdmF0YXJDbGFzc05hbWU6IFByb3BUeXBlcy5vbmVPZlR5cGUoW1Byb3BUeXBlcy5zdHJpbmcsIFByb3BUeXBlcy5vYmplY3RdKSxcbiAgfTtcblxuICBzdGF0aWMgZGVmYXVsdFByb3BzID0ge1xuICAgIGF2YXRhclByb3BzOiB7fSxcbiAgICBhdmF0YXJTaXplOiAyNCxcbiAgICBoaWRlQXZhdGFyOiBmYWxzZSxcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgY29uc3Qge1xuICAgICAgY2xhc3NOYW1lLFxuICAgICAgaGlkZUF2YXRhcixcbiAgICAgIGhpZGVOYW1lLFxuICAgICAgYXZhdGFyU2l6ZSxcbiAgICAgIGF2YXRhckNsYXNzTmFtZSxcbiAgICAgIGRpc3BsYXlOYW1lLFxuICAgICAgZGVzY3JpcHRpb24sXG4gICAgICBhdmF0YXJQcm9wcyxcbiAgICAgIHRlYW0sXG4gICAgICBvcmdhbml6YXRpb24sXG4gICAgICBwcm9qZWN0LFxuICAgIH0gPSB0aGlzLnByb3BzO1xuXG4gICAgY29uc3QgZGF0YSA9IHtcbiAgICAgIHRlYW0sXG4gICAgICBvcmdhbml6YXRpb24sXG4gICAgICBwcm9qZWN0LFxuICAgIH07XG5cbiAgICByZXR1cm4gKFxuICAgICAgPEJhc2VCYWRnZVdyYXBwZXIgY2xhc3NOYW1lPXtjbGFzc05hbWV9PlxuICAgICAgICB7IWhpZGVBdmF0YXIgJiYgKFxuICAgICAgICAgIDxTdHlsZWRBdmF0YXJcbiAgICAgICAgICAgIGNzcz17YXZhdGFyQ2xhc3NOYW1lfVxuICAgICAgICAgICAgc2l6ZT17YXZhdGFyU2l6ZX1cbiAgICAgICAgICAgIGhpZGVOYW1lPXtoaWRlTmFtZX1cbiAgICAgICAgICAgIHsuLi5hdmF0YXJQcm9wcyB8fCB7fX1cbiAgICAgICAgICAgIHsuLi5kYXRhfVxuICAgICAgICAgIC8+XG4gICAgICAgICl9XG5cbiAgICAgICAgPERpc3BsYXlOYW1lQW5kRGVzY3JpcHRpb24+XG4gICAgICAgICAgeyFoaWRlTmFtZSAmJiAoXG4gICAgICAgICAgICA8RGlzcGxheU5hbWUgZGF0YS10ZXN0LWlkPVwiYmFkZ2UtZGlzcGxheS1uYW1lXCI+e2Rpc3BsYXlOYW1lfTwvRGlzcGxheU5hbWU+XG4gICAgICAgICAgKX1cbiAgICAgICAgICB7ISFkZXNjcmlwdGlvbiAmJiA8RGVzY3JpcHRpb24+e2Rlc2NyaXB0aW9ufTwvRGVzY3JpcHRpb24+fVxuICAgICAgICA8L0Rpc3BsYXlOYW1lQW5kRGVzY3JpcHRpb24+XG4gICAgICA8L0Jhc2VCYWRnZVdyYXBwZXI+XG4gICAgKTtcbiAgfVxufVxuXG5jb25zdCBCYXNlQmFkZ2VXcmFwcGVyID0gc3R5bGVkKCdkaXYnKWBcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbmA7XG5cbmV4cG9ydCBkZWZhdWx0IEJhc2VCYWRnZTtcblxuY29uc3QgU3R5bGVkQXZhdGFyID0gc3R5bGVkKEF2YXRhcilgXG4gIG1hcmdpbi1yaWdodDogJHtwID0+IChwLmhpZGVOYW1lID8gMCA6IHNwYWNlKDEpKX07XG4gIGZsZXgtc2hyaW5rOiAwO1xuYDtcblxuY29uc3QgRGlzcGxheU5hbWVBbmREZXNjcmlwdGlvbiA9IHN0eWxlZCgnZGl2JylgXG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGxpbmUtaGVpZ2h0OiAxO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuYDtcblxuY29uc3QgRGlzcGxheU5hbWUgPSBzdHlsZWQoJ3NwYW4nKWBcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgdGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7XG4gIGxpbmUtaGVpZ2h0OiAxLjI7XG5gO1xuXG5jb25zdCBEZXNjcmlwdGlvbiA9IHN0eWxlZCgnZGl2JylgXG4gIGZvbnQtc2l6ZTogMC44NzVlbTtcbiAgbWFyZ2luLXRvcDogJHtzcGFjZSgwLjI1KX07XG4gIGNvbG9yOiAke3AgPT4gcC50aGVtZS5ncmF5Mn07XG4gIGxpbmUtaGVpZ2h0OiAxNHB4O1xuICAke292ZXJmbG93RWxsaXBzaXN9O1xuYDtcbiJdfQ== */",
+                                      ";flex-shrink:0;",
                                     ],
                                     "defaultProps": Object {
                                       "hasTooltip": false,
@@ -575,13 +575,13 @@ exports[`ProjectCard renders 1`] = `
                     src="icon-star-small-filled"
                   >
                     <ForwardRef
-                      className="css-14v6jxx-InlineSvg-Star e5ekdrk0"
+                      className="css-176na0z-InlineSvg-Star e5ekdrk0"
                       isBookmarked={false}
                       onClick={[Function]}
                       src="icon-star-small-filled"
                     >
                       <svg
-                        className="css-14v6jxx-InlineSvg-Star e5ekdrk0"
+                        className="css-176na0z-InlineSvg-Star e5ekdrk0"
                         height="1em"
                         onClick={[Function]}
                         viewBox={Object {}}
@@ -985,7 +985,7 @@ exports[`ProjectCard renders 1`] = `
                           <ForwardRef
                             aria-disabled={false}
                             aria-label="Track deploys"
-                            className="css-zv3cf1-StyledButton edwq9my0"
+                            className="css-12ogwys-StyledButton edwq9my0"
                             disabled={false}
                             external={true}
                             href="https://docs.sentry.io/learn/releases/"
@@ -996,7 +996,7 @@ exports[`ProjectCard renders 1`] = `
                             <ForwardRef
                               aria-disabled={false}
                               aria-label="Track deploys"
-                              className="css-zv3cf1-StyledButton edwq9my0"
+                              className="css-12ogwys-StyledButton edwq9my0"
                               href="https://docs.sentry.io/learn/releases/"
                               onClick={[Function]}
                               role="button"
@@ -1005,7 +1005,7 @@ exports[`ProjectCard renders 1`] = `
                               <a
                                 aria-disabled={false}
                                 aria-label="Track deploys"
-                                className="css-zv3cf1-StyledButton edwq9my0"
+                                className="css-12ogwys-StyledButton edwq9my0"
                                 href="https://docs.sentry.io/learn/releases/"
                                 onClick={[Function]}
                                 rel="noreferrer noopener"

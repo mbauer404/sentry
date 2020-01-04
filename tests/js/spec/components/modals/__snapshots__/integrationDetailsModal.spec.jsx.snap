@@ -284,16 +284,16 @@ exports[`IntegrationDetailsModal renders simple integration 1`] = `
     type="warning"
   >
     <Component
-      className="css-180e1nt-Alert ejthpj82"
+      className="css-bcq0ox-Alert ejthpj82"
       iconSize="24px"
       type="warning"
     >
       <div
-        className="ref-warning css-180e1nt-Alert ejthpj82"
+        className="ref-warning css-bcq0ox-Alert ejthpj82"
       >
         <StyledTextBlock>
           <div
-            className="css-9b4uh4-TextBlock-StyledTextBlock ejthpj81"
+            className="css-c2j570-TextBlock-StyledTextBlock ejthpj81"
           >
             <span
               dangerouslySetInnerHTML={
@@ -373,7 +373,7 @@ exports[`IntegrationDetailsModal renders simple integration 1`] = `
           <ForwardRef
             aria-disabled={false}
             aria-label="Cancel"
-            className="css-zv3cf1-StyledButton edwq9my0"
+            className="css-12ogwys-StyledButton edwq9my0"
             data-test-id="cancel-button"
             disabled={false}
             onClick={[Function]}
@@ -383,7 +383,7 @@ exports[`IntegrationDetailsModal renders simple integration 1`] = `
             <button
               aria-disabled={false}
               aria-label="Cancel"
-              className="css-zv3cf1-StyledButton edwq9my0"
+              className="css-12ogwys-StyledButton edwq9my0"
               data-test-id="cancel-button"
               onClick={[Function]}
               role="button"
@@ -670,7 +670,7 @@ exports[`IntegrationDetailsModal renders simple integration 1`] = `
                           <ForwardRef
                             aria-disabled={false}
                             aria-label="Add Installation"
-                            className="css-17rayxn-StyledButton edwq9my0"
+                            className="css-z8at1v-StyledButton edwq9my0"
                             data-test-id="add-button"
                             disabled={false}
                             onClick={[Function]}
@@ -686,7 +686,7 @@ exports[`IntegrationDetailsModal renders simple integration 1`] = `
                             <button
                               aria-disabled={false}
                               aria-label="Add Installation"
-                              className="css-17rayxn-StyledButton edwq9my0"
+                              className="css-z8at1v-StyledButton edwq9my0"
                               data-test-id="add-button"
                               onClick={[Function]}
                               role="button"

@@ -38,7 +38,7 @@ exports[`RadioBooleanField render() renders new field without form context 1`] =
           inline={true}
         >
           <div
-            className="css-1ftzhdu-FieldWrapper-FieldWrapper e2iyls20"
+            className="css-1vcdyvg-FieldWrapper-FieldWrapper e2iyls20"
           >
             <FieldControl
               alignRight={false}

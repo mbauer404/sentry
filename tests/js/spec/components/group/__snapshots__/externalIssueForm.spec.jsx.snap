@@ -145,7 +145,7 @@ exports[`ExternalIssueForm create renders 1`] = `
                     <ForwardRef
                       aria-disabled={false}
                       aria-label="Create Issue"
-                      className="css-1ls4txh-StyledButton edwq9my0"
+                      className="css-1e05jtd-StyledButton edwq9my0"
                       data-test-id="form-submit"
                       disabled={false}
                       onClick={[Function]}
@@ -156,7 +156,7 @@ exports[`ExternalIssueForm create renders 1`] = `
                       <button
                         aria-disabled={false}
                         aria-label="Create Issue"
-                        className="css-1ls4txh-StyledButton edwq9my0"
+                        className="css-1e05jtd-StyledButton edwq9my0"
                         data-test-id="form-submit"
                         onClick={[Function]}
                         role="button"
@@ -512,14 +512,14 @@ exports[`ExternalIssueForm link renders 1`] = `
                     stacked={true}
                   >
                     <div
-                      className="css-1mu5ola-FieldWrapper-FieldWrapper e2iyls20"
+                      className="css-1kl5jlp-FieldWrapper-FieldWrapper e2iyls20"
                     >
                       <FieldDescription
                         htmlFor="repo"
                         inline={false}
                       >
                         <label
-                          className="css-chrktd-FieldDescription e3z18c30"
+                          className="css-1q141sp-FieldDescription e3z18c30"
                           htmlFor="repo"
                         >
                           <FieldLabel
@@ -1494,14 +1494,14 @@ exports[`ExternalIssueForm link renders 1`] = `
                     stacked={true}
                   >
                     <div
-                      className="css-1mu5ola-FieldWrapper-FieldWrapper e2iyls20"
+                      className="css-1kl5jlp-FieldWrapper-FieldWrapper e2iyls20"
                     >
                       <FieldDescription
                         htmlFor="externalIssue"
                         inline={false}
                       >
                         <label
-                          className="css-chrktd-FieldDescription e3z18c30"
+                          className="css-1q141sp-FieldDescription e3z18c30"
                           htmlFor="externalIssue"
                         >
                           <FieldLabel
@@ -2328,14 +2328,14 @@ exports[`ExternalIssueForm link renders 1`] = `
                     stacked={true}
                   >
                     <div
-                      className="css-1mu5ola-FieldWrapper-FieldWrapper e2iyls20"
+                      className="css-1kl5jlp-FieldWrapper-FieldWrapper e2iyls20"
                     >
                       <FieldDescription
                         htmlFor="comment"
                         inline={false}
                       >
                         <label
-                          className="css-chrktd-FieldDescription e3z18c30"
+                          className="css-1q141sp-FieldDescription e3z18c30"
                           htmlFor="comment"
                         >
                           <FieldLabel
@@ -2548,7 +2548,7 @@ exports[`ExternalIssueForm link renders 1`] = `
                                         value="Default Value"
                                       >
                                         <ForwardRef
-                                          className="css-1gxghiu-TextArea e1oph3pe0"
+                                          className="css-1b8bpbw-TextArea e1oph3pe0"
                                           default="Default Value"
                                           disabled={false}
                                           id="comment"
@@ -2561,7 +2561,7 @@ exports[`ExternalIssueForm link renders 1`] = `
                                           value="Default Value"
                                         >
                                           <textarea
-                                            className="css-1gxghiu-TextArea e1oph3pe0"
+                                            className="css-1b8bpbw-TextArea e1oph3pe0"
                                             default="Default Value"
                                             disabled={false}
                                             id="comment"
@@ -2773,7 +2773,7 @@ exports[`ExternalIssueForm link renders 1`] = `
                     <ForwardRef
                       aria-disabled={false}
                       aria-label="Link Issue"
-                      className="css-1ls4txh-StyledButton edwq9my0"
+                      className="css-1e05jtd-StyledButton edwq9my0"
                       data-test-id="form-submit"
                       disabled={false}
                       onClick={[Function]}
@@ -2784,7 +2784,7 @@ exports[`ExternalIssueForm link renders 1`] = `
                       <button
                         aria-disabled={false}
                         aria-label="Link Issue"
-                        className="css-1ls4txh-StyledButton edwq9my0"
+                        className="css-1e05jtd-StyledButton edwq9my0"
                         data-test-id="form-submit"
                         onClick={[Function]}
                         role="button"

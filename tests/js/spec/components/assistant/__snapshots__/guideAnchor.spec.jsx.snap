@@ -117,7 +117,7 @@ exports[`GuideAnchor renders, advances, and finishes 1`] = `
                         <div>
                           <button
                             aria-disabled="false"
-                            class="css-7xxikc-StyledButton edwq9my0"
+                            class="css-1a9qzq-StyledButton edwq9my0"
                             role="button"
                           >
                             <span
@@ -302,7 +302,7 @@ exports[`GuideAnchor renders, advances, and finishes 1`] = `
                                       >
                                         <ForwardRef
                                           aria-disabled={false}
-                                          className="css-7xxikc-StyledButton edwq9my0"
+                                          className="css-1a9qzq-StyledButton edwq9my0"
                                           disabled={false}
                                           onClick={[Function]}
                                           priority="success"
@@ -311,7 +311,7 @@ exports[`GuideAnchor renders, advances, and finishes 1`] = `
                                         >
                                           <button
                                             aria-disabled={false}
-                                            className="css-7xxikc-StyledButton edwq9my0"
+                                            className="css-1a9qzq-StyledButton edwq9my0"
                                             onClick={[Function]}
                                             role="button"
                                             size="small"
@@ -461,7 +461,7 @@ exports[`GuideAnchor renders, advances, and finishes 2`] = `
                           <button
                             aria-disabled="false"
                             aria-label="Done"
-                            class="css-7xxikc-StyledButton edwq9my0"
+                            class="css-1a9qzq-StyledButton edwq9my0"
                             role="button"
                           >
                             <span
@@ -607,7 +607,7 @@ exports[`GuideAnchor renders, advances, and finishes 2`] = `
                                         <ForwardRef
                                           aria-disabled={false}
                                           aria-label="Done"
-                                          className="css-7xxikc-StyledButton edwq9my0"
+                                          className="css-1a9qzq-StyledButton edwq9my0"
                                           disabled={false}
                                           onClick={[Function]}
                                           priority="success"
@@ -617,7 +617,7 @@ exports[`GuideAnchor renders, advances, and finishes 2`] = `
                                           <button
                                             aria-disabled={false}
                                             aria-label="Done"
-                                            className="css-7xxikc-StyledButton edwq9my0"
+                                            className="css-1a9qzq-StyledButton edwq9my0"
                                             onClick={[Function]}
                                             role="button"
                                             size="small"

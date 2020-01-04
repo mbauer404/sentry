@@ -174,11 +174,11 @@ exports[`ExternalIssueActions with no external issues linked renders 1`] = `
                       src="icon-github"
                     >
                       <ForwardRef
-                        className="css-dsg67l-InlineSvg-IntegrationIcon euat0et1"
+                        className="css-io1i3k-InlineSvg-IntegrationIcon euat0et1"
                         src="icon-github"
                       >
                         <svg
-                          className="css-dsg67l-InlineSvg-IntegrationIcon euat0et1"
+                          className="css-io1i3k-InlineSvg-IntegrationIcon euat0et1"
                           height="1em"
                           viewBox={Object {}}
                           width="1em"
@@ -212,13 +212,13 @@ exports[`ExternalIssueActions with no external issues linked renders 1`] = `
           src="icon-close"
         >
           <ForwardRef
-            className="css-1ylju86-InlineSvg-OpenCloseIcon euat0et3"
+            className="css-7qmpzh-InlineSvg-OpenCloseIcon euat0et3"
             isLinked={false}
             onClick={[Function]}
             src="icon-close"
           >
             <svg
-              className="css-1ylju86-InlineSvg-OpenCloseIcon euat0et3"
+              className="css-7qmpzh-InlineSvg-OpenCloseIcon euat0et3"
               height="1em"
               onClick={[Function]}
               viewBox={Object {}}
