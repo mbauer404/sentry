@@ -5,7 +5,7 @@
     "declaration": false,
     "declarationMap": false,
     "downlevelIteration": true,
-    "inlineSources": true,
+    "inlineSources": false,
     "importHelpers": true,
     "lib": ["esnext", "dom"],
     "module": "esnext",

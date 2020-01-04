@@ -8,6 +8,7 @@ module.exports = {
       '@emotion/babel-preset-css-prop',
       {
         autoLabel: true,
+        sourceMap: false,
         labelFormat: '[local]',
       },
     ],
@@ -48,6 +49,7 @@ module.exports = {
         [
           '@emotion/babel-preset-css-prop',
           {
+            sourceMap: false,
             autoLabel: true,
           },
         ],
